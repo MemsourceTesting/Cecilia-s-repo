@@ -1,0 +1,1233 @@
+{
+  "generic": {
+    "loading": "Loading...",
+    "yes": "Yes",
+    "no": "No",
+    "unknown": "Unknown",
+    "btn": {
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "close": "Close",
+      "next": "Next",
+      "prev": "Previous",
+      "save-changes": "Save changes",
+      "ok": "OK",
+      "retry": "Retry",
+      "back": "Back"
+    },
+    "status": {
+      "online": "Online",
+      "offline": "Offline",
+      "error": "Error",
+      "busy": "Busy",
+      "ready": "Ready",
+      "running": "Running",
+      "unpaired": "Unpaired",
+      "pending": "Pending",
+      "accepted": "Pending",
+      "submitted": "Pending",
+      "complete": "Results",
+      "cancel": "Canceled",
+      "results": "Results"
+    },
+    "system": {
+      "badges": {
+        "error": "Not connected",
+        "connected": "Connected",
+        "not-connected": "Not connected",
+        "disconnected-by-user": "Not connected"
+      }
+    },
+    "device": {
+      "pims": "PIMS: {{value}}",
+      "pims-label": "PIMS {{value}}"
+    },
+    "search": {
+      "placeholder": "Search name or ID",
+      "no-result": "We couldn’t find any results for your search."
+    },
+    "labels": {
+      "owner": "Owner :",
+      "species": "Species :",
+      "sex": "Sex :",
+      "breed": "Breed :",
+      "age": "Age :",
+      "email": "Email :",
+      "phone": "Phone :",
+      "address": "Address :",
+      "no-owner-assign": "No owner assigned",
+      "test-date": "Test date :",
+      "device": "Device :",
+      "warning": "Warning : {{warning}}",
+      "no-assigned-patients": "There are no assigned patients",
+      "images": "Images"
+    },
+    "date": {
+      "year_one": "{{count}} year",
+      "year_other": "{{count}} years",
+      "month_one": "{{count}} month",
+      "month_other": "{{count}} months"
+    },
+    "list": {
+      "view": "View details"
+    },
+    "scenario": {
+      "title": "Scenario not implemented yet",
+      "description": "Only implemented the zts-cloud-mode and server-mode scenarios"
+    },
+    "validation": {
+      "email": "Please enter a valid email address"
+    },
+    "error": {
+      "title": "Encountered an error",
+      "description": "If the problem persists, contact Zoetis support"
+    }
+  },
+  "form": {
+    "required": "(required)",
+    "date-field": {
+      "day-char": "D",
+      "month-char": "M",
+      "year-char": "Y"
+    }
+  },
+  "onboarding": {
+    "submit-btn": "Continue",
+    "language": "Language select",
+    "region": {
+      "title": "Region selection",
+      "placeholder": "Select your region"
+    },
+    "eula-privacy": {
+      "title": "License agreement",
+      "eula-check": "I have read and agree to the license agreement",
+      "qr": "Scan the QR code with your smart device to view the Privacy Policy"
+    },
+    "clinic-form": {
+      "title": "Practice data",
+      "clinic-name": "Practice name",
+      "clinic-street": "Practice street address",
+      "clinic-city": "City",
+      "clinic-state": "State or province",
+      "clinic-postal-code": "ZIP or Postal code",
+      "clinic-website": "Practice website",
+      "phone-number": "Practice phone number",
+      "validation": {
+        "practice-name": {
+          "required": "Practice name is required",
+          "max-length": "Practice name must be no longer than {{max}} characters"
+        },
+        "practice-street": {
+          "max-length": "Practice street must be no longer than {{max}} characters"
+        },
+        "practice-city": {
+          "max-length": "City name must be no longer than {{max}} characters"
+        },
+        "practice-state": {
+          "max-length": "State or province must be no longer than {{max}} characters"
+        },
+        "practice-postal-code": {
+          "max-length": "Postal code must be no longer than {{max}} characters"
+        },
+        "practice-website": {
+          "max-length": "Practice website address must be no longer than {{max}} characters"
+        },
+        "practice-phone-number": {
+          "max-length": "Practice phone number must be no longer than {{max}} characters"
+        }
+      }
+    },
+    "date-time": {
+      "title": "Date and time",
+      "24-hr-clock": "24 hour clock",
+      "current-date-time": "Current date & Time",
+      "time-zone": {
+        "label": "Select time zone",
+        "placeholder": "Select your timezone"
+      }
+    },
+    "setup-complete": {
+      "title": "Setup complete"
+    }
+  },
+  "general-settings": {
+    "title": " General settings",
+    "notconnected": "Not connected",
+    "tabs": {
+      "about": "About",
+      "time": "Date & Time",
+      "localization": "Language",
+      "practice-info": "Practice information"
+    },
+    "about": {
+      "software-version": "Current version",
+      "application-version": "Current software version",
+      "application-version-history": "Software version history",
+      "view-app-version-history": "View history...",
+      "ip-address": "HUB IP address",
+      "mac-address": "MAC address",
+      "zoetisdx-key": "Ownership key",
+      "serial-number": "Serial number"
+    },
+    "localization": {
+      "select-label": "Language"
+    },
+    "submit-label": "Save settings"
+  },
+  "settings-page": {
+    "tab": {
+      "general": "General settings",
+      "pims": "PIMS",
+      "devices": "Devices"
+    },
+    "title": "Settings"
+  },
+  "pims-settings": {
+    "title": "PIMS settings",
+    "page-title": "PIMS integration",
+    "connect-to-pims": "Connect to PIMS",
+    "is-first-connection": "Is this your first time connecting to PIMS?",
+    "disconnect-from-pims": {
+      "home-button": "Disconnect PIMS",
+      "title": "Disconnect from PIMS",
+      "body-message": "Are you sure you want to disconnect?",
+      "error": {
+        "title": "Unable to disconnect"
+      }
+    },
+    "generate-transfer-code": "Generate transfer code",
+    "message": "Are you sure you want to disconnect from PIMS?",
+    "confirmation-button": "Yes, disconnect from PIMS",
+    "first-connection.no": "No, I'm re-establishing a connection",
+    "first-connection.yes": "Yes, it's my first time connecting",
+    "enter-otp.label": "Enter transfer code / One time password (OTP)",
+    "enter-otp.reconnect": "Reconnect to PIMS",
+    "go-to": "Go to PIMS settings",
+    "first-time-pims-selection": {
+      "fetching-modal": "Fetching list of PIMS. Please wait...",
+      "fetch-error-modal": "PIMS list failed to load",
+      "fetching-list-of-pims": "Fetching list of PIMS. Please wait...",
+      "select-your-pims": "Select your PIMS",
+      "no-pims-selected": "No PIMS selected",
+      "connecting": "Connecting with PIMS",
+      "connect-with-pims": "Connect to PIMS"
+    },
+    "tab": {
+      "integration": "PIMS integration",
+      "test-result-settings": "Test result settings"
+    },
+    "modal": {
+      "error.header": "Unable to establish connection",
+      "successfully-connected": "Connected to PIMS successfully",
+      "server-mode.connected": "Server mode connection established",
+      "server-mode.body": "Check your email for credentials to complete the connection.",
+      "server-mode.header": "Email address needed to receive credentials",
+      "server-mode.error.title": "Encountered an error"
+    },
+    "connected": {
+      "otp-generator": {
+        "hint": "Transfer PIMS connection to a new HUB",
+        "header": "Your one time transfer password (OTP)",
+        "expire-warning": "Code will expire in 24 hours",
+        "error": "Unable to generate OTP code"
+      },
+      "transfer-connection": "Transfer this connection to a new HUB",
+      "transfer-button": "Generate transfer code"
+    },
+    "connected-to": "Connected to",
+    "client-id": "Client ID:",
+    "connecting": "Connecting with your PIMS",
+    "validation": {
+      "otp": {
+        "required": "OTP is required",
+        "min-length": "OTP must be 6 characters",
+        "matches": "Invalid OTP"
+      }
+    },
+    "server-mode": "Server mode connection",
+    "connect": "Connect",
+    "badge": {
+      "header": "PIMS",
+      "connected": "Connected to {{pimsName}}",
+      "error": "Disconnected from {{pimsName}}",
+      "disconnected-by-user": "Disconnected from {{pimsName}}",
+      "not-connected": "Not connected"
+    },
+    "email-section": {
+      "description": "Please input the email address of where you would like to receive credentials for completing this setup within PIMS",
+      "label": {
+        "first-email": "Email address",
+        "other-email": "Alternate email address"
+      }
+    }
+  },
+  "device-settings": {
+    "title": "Device settings",
+    "tab": {
+      "imagyst": "Imagyst"
+    },
+    "imagyst": {
+      "badge": {
+        "connected": "Connected to {{companyName}}",
+        "error": "Disconnected from {{companyName}}",
+        "disconnected-by-user": "Not connected",
+        "not-connected": "Not connected"
+      },
+      "form": {
+        "email": {
+          "label": "Imagyst app email",
+          "invalid": "Improperly formatted email address.",
+          "required": "Email is required"
+        },
+        "password": {
+          "label": "Imagyst app password",
+          "required": "Password is required"
+        }
+      },
+      "connect-button": {
+        "connect": "Connect to IMAGYST",
+        "connecting": "Connecting to IMAGYST",
+        "disconnect": "Disconnect IMAGYST"
+      },
+      "error-modal": {
+        "title": "Unable to establish Imagyst connection",
+        "invalid-credentials": "Invalid username or password",
+        "unreachable": "Could not connect to Imagyst - check your internet connection or try again later",
+        "unexpected": "An unexpected error occured, please try again later",
+        "permissions": "This account does not have the required permissions to establish a new connection."
+      },
+      "disconnect-modal": {
+        "title": "Disconnect from IMAGYST",
+        "body": "Are you sure you want to disconnect from IMAGYST?",
+        "confirmation-button": "Yes, disconnect from IMAGYST"
+      }
+    }
+  },
+  "testlist": {
+    "title": "Tests list",
+    "details": "Test detail",
+    "new-test-btn": "New test",
+    "add-test-btn": "Add new test",
+    "emergency-patient": "Emergency patient",
+    "select-consumables": {
+      "title": "Select test(s)",
+      "no-analyzer-msg": "Please connect an analyzer to the Hub to run a test.",
+      "check-device": "Check my connected devices"
+    },
+    "select-patient": {
+      "name": "Patient’s name",
+      "patient-id": "Patient-ID",
+      "species": "Species",
+      "breed": "Breed",
+      "selected": "Patient selected",
+      "not-selected": "Select patient",
+      "title": "Select a patient",
+      "emergency-test": "Emergency test",
+      "cancel": "Cancel order"
+    },
+    "order-summary": {
+      "title": "Order summary",
+      "default-msg": "Default message (to be implemented)",
+      "submit-btn": "Submit order"
+    },
+    "patient-info": {
+      "title": "Patient information",
+      "quick-test": "Quicktest",
+      "no-patient": "No patient selected"
+    },
+    "test-wizard": {
+      "title": "Create order",
+      "step": "Step {{step}} of 3"
+    },
+    "tabs": {
+      "all-tests": "All tests",
+      "worklist": "Worklist",
+      "completed": "Completed tests",
+      "columns": {
+        "patient": "Patient",
+        "test": "Test",
+        "platform": "Platform",
+        "device": "Device",
+        "species": "Species",
+        "status": "Status",
+        "progress": "Progress",
+        "view-details": "View details",
+        "start-test": "Start test",
+        "completed": "Completed on"
+      },
+      "status-btn": {
+        "all-tests": "All tests",
+        "pending": "Pending",
+        "ready": "Ready",
+        "running": "Running",
+        "results": "Results",
+        "error": "Error"
+      }
+    }
+  },
+  "patients": {
+    "title": "Patients",
+    "search-placeholder": "Search patient ID or name",
+    "view-owner-list": "View owners list",
+    "view-owner": "View owner",
+    "add-patient": "Add patient",
+    "no-result": "No results to display",
+    "all-species": "All species",
+    "assign-owner-title": "Assign owner to patient",
+    "assign-owner": "Assign owner",
+    "details": {
+      "title": "Patient details",
+      "sub-title": "Patient’s tests"
+    },
+    "patients-add": {
+      "header": "Add new patient",
+      "patient-id": "Patient ID",
+      "patient-name": "Patient Name",
+      "species": "Species",
+      "breed": "Breed",
+      "birthdate": "Birth date",
+      "sex": "Sex",
+      "notes": "Notes",
+      "placeholder": {
+        "species": "Select species",
+        "sex": "Select sex"
+      },
+      "validation": {
+        "patient-id": {
+          "required": "Patient ID is required",
+          "max-length": "Patient ID must be no longer than {{max}} characters"
+        },
+        "patient-name": {
+          "required": "Patient name is required",
+          "max-length": "Patient name must be no longer than {{max}} characters"
+        },
+        "breed": "Patient breed must be no longer than 255 characters",
+        "species": "Species selection is required",
+        "gender": "Sex selection is required",
+        "birthdate": "Entered date is not valid"
+      }
+    },
+    "patient-edit": {
+      "edit-patient": "Edit patient",
+      "patient-owner": "Patient’s owner",
+      "unassign-owner": "Unassign owner",
+      "assign-owner": "Assign owner",
+      "no-owner": "No owner assigned",
+      "label": {
+        "species": "Species",
+        "breed": "Breed",
+        "sex": "Sex",
+        "owner": "Owner",
+        "birthdate": "Birthdate"
+      }
+    },
+    "tabs": {
+      "all-patients": "All patients",
+      "current-tests": "Current orders",
+      "test-history": "Test history"
+    },
+    "tab-columns": {
+      "test": "Test",
+      "platform": "Platform",
+      "device": "Device",
+      "status": "Status",
+      "progress": "Progress"
+    },
+    "list": {
+      "name": "Patient’s name",
+      "id": "Patient ID",
+      "species": "Species, Breed"
+    }
+  },
+  "owners": {
+    "title": "Owners",
+    "search-placeholder": "Search owner ID or owner name",
+    "assigned-patients": "Assigned patients",
+    "manage-assigned-patients": "Manage assigned patients",
+    "owner-info": "Owner information",
+    "add-title": "Add owner",
+    "edit-title": "Edit owner",
+    "details": {
+      "title": "Owners detail",
+      "phone": "Phone",
+      "patient": {
+        "name": "Patient’s name",
+        "id": "Patient ID",
+        "species": "Species, Breed",
+        "date": "Date"
+      }
+    },
+    "assign-title": "Assign patient",
+    "validation": {
+      "first-name": {
+        "required": "Owner first name is required",
+        "max-length": "Owner first name must be no longer than {{max}} characters"
+      },
+      "last-name": {
+        "required": "Owner last name is required",
+        "max-length": "Owner last name must be no longer than {{max}} characters"
+      },
+      "owner-id": "Owner ID must be no longer than {{max}} characters",
+      "email": "Owner email must be no longer than {{max}} characters",
+      "phone": "Owner phone must be no longer than {{max}} characters"
+    },
+    "headers": {
+      "last-name": "Last name",
+      "first-name": "First name",
+      "owner-id": "Owner ID",
+      "phone-number": "Phone",
+      "address": "Address",
+      "email": "Email",
+      "view-details": "View details"
+    },
+    "tab-columns": {
+      "patient-name": "Patient name",
+      "patient-id": "Patient ID",
+      "species": "Species",
+      "breed": "Breed",
+      "assign-patient": "Assign patient",
+      "patient-assigned": "Patient assigned"
+    }
+  },
+  "my-lab": {
+    "title": "My Lab",
+    "systems-header": "Systems",
+    "imagyst": "Imagyst: {{val}}",
+    "devices": "All devices",
+    "no-devices-msg": "No connected devices",
+    "no-devices-desc": "Check device connections, or connect a supported device",
+    "instrument": {
+      "platform": " {{platform}} devices",
+      "card": {
+        "SN": "Serial number : {{serial}}"
+      },
+      "details": {
+        "title": "Device information",
+        "btn-type": "{{button}} device",
+        "status": "Status",
+        "serial-no": "Serial number :",
+        "software": "Software version :",
+        "connection-type": "Physical connection type",
+        "last-transmission": "Last transmission :",
+        "device-date-time": "Device date time",
+        "mobile-os": "Mobile OS :",
+        "mobile-user": "User :",
+        "edit-device": "Edit device",
+        "shutdown": "Shut down",
+        "identify": "Identify",
+        "power-on": "Power on",
+        "quality-control": "Create quality control test",
+        "test-tabs": {
+          "current-tests": "Current tests",
+          "test-history": "Test history"
+        },
+        "modal": {
+          "error-header": "An error has occurred",
+          "error-msg": "Device was unable to {{label}}",
+          "action-msg": "Are you sure you want to {{label}} this device?"
+        },
+        "edit": {
+          "unpair-msg": "If you unpair the device you will not see the device again until it is reconnected to the Hub.",
+          "unpair-device": "Unpair device",
+          "modal": {
+            "msg": "Please unplug and disconnect device from the network before unpairing.",
+            "confirmation-msg": "Do you want to continue with unpairing this device?"
+          }
+        }
+      }
+    }
+  },
+  "measurement": {
+    "cancel-btn": "Cancel test",
+    "test-date": "Test date",
+    "warning-result-title": "Warning flag",
+    "status": {
+      "pending": "Pending",
+      "submitted": "Pending",
+      "accepted": "Pending",
+      "ready": "Ready",
+      "running": "Running",
+      "complete": "Complete",
+      "error": "Error",
+      "cancel": "Cancelled"
+    },
+    "details": {
+      "status": {
+        "pending": "Pending",
+        "submitted": "Pending",
+        "accepted": "Pending",
+        "ready": "Ready",
+        "running": "Running",
+        "complete": "Results available",
+        "error": "Test error",
+        "cancel": "Cancelled"
+      },
+      "actions": {
+        "resend-to-pims": "Resend to PIMS"
+      }
+    },
+    "modal": {
+      "cancel-header": "Cancel test",
+      "cancel-msg": "Are you sure you want to cancel this test?",
+      "ok-btn": "Yes, cancel test",
+      "not-ok-btn": "No, resume test"
+    },
+    "results": {
+      "serialNumber": {
+        "standard": "{{typeName}} - {{serialNumber}}",
+        "imagyst": "Imagyst - {{companyName}}"
+      },
+      "result-columns": {
+        "test": "Test",
+        "graph": "Graph",
+        "result": "Result",
+        "unit": "Unit",
+        "reference": "Reference"
+      },
+      "flags": {
+        "low": "Low",
+        "normal": "Normal",
+        "high": "High",
+        "out-of-bounds": "Out",
+        "suppressed": "Supp",
+        "suppressed-s": "S"
+      }
+    }
+  },
+  "instrument": {
+    "platforms": {
+      "chemistry": "Chemistry",
+      "hematology": "Hematology",
+      "molecular": "Molecular",
+      "specialty": "Specialty",
+      "rapid": "Rapid",
+      "urinalysis": "Urinalysis",
+      "handheld": "Handheld",
+      "lateralflow": "Rapid",
+      "imagyst": "Imagyst",
+      "unknown": "Unknown"
+    }
+  },
+  "management": {
+    "title": "Management",
+    "clear-instruments": "Clear instruments",
+    "clear-tests": "Clear tests",
+    "clear-tests-instruments": "Clear tests and instruments",
+    "clear-onboarding": "Clear onboarding status & data"
+  },
+  "prompts": {
+    "apply-sample": {
+      "title": "Apply sample",
+      "msg": "Please ensure that sample has been obtained in a citrate test tube."
+    },
+    "cartridge-code": {
+      "title": "Cartridge code number"
+    },
+    "disconnected": {
+      "title": "Connection lost",
+      "description": "Attempting reconnect...",
+      "check-device": "Check your devices"
+    },
+    "insert-cartridge": "Insert cartridge into blinking device",
+    "ltf-binary-result": {
+      "columns": {
+        "test-type": "Test type",
+        "result": "Result",
+        "error-desc": "Error description"
+      },
+      "values": {
+        "positive": "Positive",
+        "negative": "Negative",
+        "invalid": "Invalid",
+        "error": "Test encountered an error"
+      }
+    },
+    "ltf-cpl-result-columns": {
+      "test-type": "Test type",
+      "concentration": "Concentration",
+      "ref-range": "Reference range",
+      "graph": "Graph"
+    },
+    "insert-sample": {
+      "timed-scan": {
+        "apply-sample-1": "Apply sample and buffer",
+        "apply-sample-2": "to cassette",
+        "insert-consumable-1": "Open drawer and insert",
+        "insert-consumable-2": "cassette into device",
+        "close-drawer-1": "Close drawer on device",
+        "close-drawer-2": "to scan cassette"
+      },
+      "quick-scan": {
+        "insert-consumable-1": "Open drawer and insert",
+        "insert-consumable-2": "consumeable into device",
+        "close-drawer-1": "Close drawer on device",
+        "close-drawer-2": "to scan cassette"
+      },
+      "hmx": {
+        "apply-sample-1": "Apply sample",
+        "apply-sample-2": "to sampler",
+        "insert-sampler-1": "Insert sampler into",
+        "insert-sampler-2": "cartridge",
+        "insert-consumable-1": "Insert cartridge into",
+        "insert-consumable-2": "device",
+        "qc": "Insert control cartridge into device"
+      }
+    },
+    "ltf-scan-type": {
+      "timed-scan-btn": "Timed scan",
+      "quick-scan-btn": "Quick scan"
+    },
+    "measurement-cancelled": {
+      "title": "Test canceled by user"
+    },
+    "pending": {
+      "accepted": "Test order is pending on {{serialNumber}}.",
+      "no-device": "No device assigned",
+      "order": "Test order pending",
+      "general-worklist": "Test order is pending in General Worklist",
+      "on-imagyst": "Pending in Vetscan Imagyst Worklist"
+    },
+    "submitted": "Test order is waiting to be sent to {{serialNumber}}.",
+    "prepare-sample": {
+      "title": "Prepare sample while cartridge warms",
+      "msg-1": "Please ensure that sample has been obtained in a citrate test tube.",
+      "msg-2": "Do not apply prepared sample until prompted."
+    },
+    "species": "Cannot determine patient species.",
+    "tabs": {
+      "result": "Results",
+      "images": "Images"
+    },
+    "text-result": {
+      "columns": {
+        "test": "Test",
+        "result": "Result"
+      }
+    },
+    "pass-fail-result": {
+      "columns": {
+        "test": "Test",
+        "result": "Result"
+      },
+      "values": {
+        "pass": "PASS",
+        "fail": "FAIL"
+      }
+    },
+    "timed-progress": {
+      "time-remaining": "Time remaining:",
+      "total-time": "Total time:"
+    },
+    "vs3-insert": {
+      "add-sample": "Add sample",
+      "place-rotor": "Place rotor in open drawer",
+      "close-drawer": "Close Drawer and Continue"
+    },
+    "img-result": {
+      "columns": {
+        "detection": "Analyte",
+        "count": "Count",
+        "images": "Images",
+        "presence": "Presence",
+        "ova": "Ova/Oocysts",
+        "blood-cells": "Blood cells",
+        "bacteria": "Bacteria",
+        "crystal": "Crystal",
+        "casts": "Casts",
+        "epithelial-cells": "Epithelial",
+        "semi-quant-hpf": "Semi-Quant (Per HPF)",
+        "semi-quant-lpf": "Semi-Quant (Per LPF)"
+      }
+    },
+    "img-fecal-result-columns": {
+      "epg": "EPG"
+    },
+    "img-dermatology-result-columns": {
+      "bacteria-yeast": "Bacteria & yeast",
+      "white-blood-cells": "Inflammatory WBC",
+      "left-ear": "Left ear",
+      "right-ear": "Right ear"
+    },
+    "img-review-result": {
+      "columns": {
+        "description": "Description",
+        "interpretation": "Interpretation",
+        "notes": "Notes",
+        "specimen": "Specimen"
+      },
+      "tab": {
+        "site": "Site",
+        "clinical-history": "Clinical history"
+      },
+      "NA": "N/A"
+    },
+    "img-bloodsmear-result-columns": {
+      "detection": "Analyte",
+      "graph": "Graph",
+      "count": "Result",
+      "unit": "Unit"
+    },
+    "submit-btn": "Submit"
+  },
+  "components": {
+    "dropdown-filter": {
+      "filter-by": "Filter by"
+    }
+  },
+  "analytes": {
+    "rapid": {
+      "chw": "Heartworm",
+      "ehr": "Ehrlichia",
+      "par": "Parvo",
+      "gia": "Giardia",
+      "lym": "Lyme",
+      "cpl": "Canine Pancreatic Lipase",
+      "fiv": "Feline Immunodeficiency Virus",
+      "fel": "Feline Leukemia Virus",
+      "ana": "Anaplasma"
+    },
+    "imagyst": {
+      "ancy": "Ancylostoma (hookworm)",
+      "coc": "Cystoisospora (coccidia)",
+      "eim": "Eimeria",
+      "gia": "Giardia",
+      "tae": "Taenia (tapeworm)",
+      "tox": "Toxocara (roundworm)",
+      "tri": "Trichuris (whipworm)",
+      "para": "Parascaris (roundworm)",
+      "stro": "Strongyles",
+      "bacteria": "Bacteria",
+      "yeast": "Yeast",
+      "derm-wbc": "White Blood Cells",
+      "derm-rods": "Rods",
+      "derm-cocci": "Cocci",
+      "derm-neutrophil-normal": "Neutrophils",
+      "derm-neutrophil-bacteria": "Neutrophils (containing bacteria)",
+      "derm-macrophage": "Macrophages",
+      "derm-lymphocyte": "Lymphocytes",
+      "derm-eosinophil": "Eosinophils",
+      "derm-malassezia": "Malassezia",
+      "ewbc": "Estimated WBC Count",
+      "neu": "Neutrophil",
+      "lym": "Lymphocyte",
+      "mon": "Monocyte",
+      "eos": "Eosinophil",
+      "bas": "Basophil",
+      "wbc%": "WBC Percent",
+      "neu%": "Neutrophil (%)",
+      "lym%": "Lymphocyte (%)",
+      "mon%": "Monocyte (%)",
+      "eos%": "Eosinophil (%)",
+      "bas%": "Basophil (%)",
+      "erbc": "Red Blood Cell",
+      "rbc": "Nucleated RBC",
+      "pol": "Polychromatophilic",
+      "plt": "Estimated Platelet Count",
+      "lplt": "Large Aggregated Platelet",
+      "mplt": "Medium Aggregated Platelet",
+      "bneu": "Band Neutrophil",
+      "bneu%": "Band Neutrophil (%)",
+      "sneu": "Segmented Neutrophil",
+      "sneu%": "Segmented Neutrophil (%)",
+      "aca": "Acanthocyte",
+      "ecc": "Eccentrocyte",
+      "ech": "Echinocyte",
+      "ker": "Keratocyte",
+      "sch": "Schistocyte",
+      "aplt": "Aggregated Platelet",
+      "dobd": "Dohle Body",
+      "u-wbc": "WBCs",
+      "u-rbc": "RBCs",
+      "u-coc": "Cocci",
+      "u-coc-cl": "Cocci Clusters & Chains",
+      "u-rod": "Rods",
+      "u-rod-cl": "Rods Clusters & Chains",
+      "u-hyac": "Hyaline Cast",
+      "u-nhyac": "Non-hyaline Cast",
+      "u-str": "Struvite",
+      "u-cal": "Calcium Oxalate dihydrate",
+      "u-squ": "Squamous Epithelial Cells",
+      "u-oepi": "Other epithelial Cells",
+      "u-epi-cl": "Epithelial Cell Cluster",
+      "vu-other-epithelial-cells": "Other Epithelial Cells",
+      "vu-crystals": "Crystals",
+      "vu-bacteria": "Bacteria",
+      "vu-epithelial-cells": "Epithelial",
+      "vu-casts": "Casts",
+      "vu-blood-cells": "Blood cells"
+    },
+    "ua": {
+      "leukocytes": "Leukocytes",
+      "ketones": "Ketones",
+      "nitrites": "Nitrites",
+      "urobilinogen": "Urobilinogen",
+      "bilirubin": "Bilirubin",
+      "glucose": "Glucose",
+      "protein": "Protein",
+      "specific-gravity": "Specific Gravity",
+      "ph": "pH",
+      "blood": "Blood",
+      "ascorbic-acid": "Ascorbic Acid",
+      "microalbumin": "Microalbumin",
+      "calcium": "Calcium",
+      "creatinine": "Creatinine",
+      "protein/creatinine": "Protein/Creatinine",
+      "color": "Color"
+    }
+  },
+  "sample": {
+    "info": {
+      "fec-color": "Color",
+      "fec-consist": "Consistency",
+      "fec-comm": "Comments",
+      "eqf-consist": "Consistency",
+      "sol": "Solution",
+      "blood-presence": "Blood Presence",
+      "site-location": "Site Location",
+      "notes-bld": "Comment",
+      "u-retrieval": "Urine retrieval technique",
+      "u-clarity": "Clarity",
+      "u-vol": "Urine volume",
+      "u-ph": "pH",
+      "u-color": "Color before centrifugation",
+      "u-hematuric": "Color after centrifugation",
+      "u-dilution-fac": "Dilution factor",
+      "u-time": "Collect time",
+      "u-storage": "Storage condition",
+      "u-usg": "USG"
+    },
+    "color": {
+      "brown": "Brown",
+      "light-brown": "Light Brown",
+      "black": "Black",
+      "green": "Green",
+      "light-green": "Light Green",
+      "yellow": "Yellow",
+      "yellow-with-mucus": "Yellow With Mucus",
+      "orange": "Orange",
+      "yellow-orange": "Yellow Orange",
+      "gray": "Gray",
+      "pink-purple": "Pink / Purple",
+      "bloody": "Bloody / Red Streaked",
+      "colorless": "Colorless",
+      "light-red": "Light Red",
+      "red": "Red",
+      "pink": "Pink",
+      "light-orange": "Light Orange",
+      "dark-orange": "Dark Orange",
+      "light-yellow": "Light Yellow",
+      "light-medium-yellow": "Light to Medium Yellow",
+      "dark-yellow": "Dark Yellow",
+      "straw": "Straw",
+      "light-straw": "Light Straw",
+      "white": "White",
+      "green-tint": "Green Tint",
+      "same": "Same as Pre-Centrifugation",
+      "different": "Different from Pre-Centrifugation",
+      "other": "other"
+    },
+    "consistency": {
+      "bristol": {
+        "one": "1 - Very hard and dry",
+        "two": "2 - Firm, but not hard",
+        "three": "3 - Moist, holds form, segmented",
+        "four": "4 - Very moist, loses form, non-segmented",
+        "five": "5 - Very moist, has shape",
+        "six": "6 - Has texture, but no shape",
+        "seven": "7 - Watery, no texture"
+      },
+      "equine": {
+        "dry-with-mucous": "1 - Dry with mucous",
+        "dry-without-mucous": "2 - Dry without mucous",
+        "normal-formed": "3 - Normal formed",
+        "soft-formed": "4 - Soft formed",
+        "cow-pie": "5 - Cow pie",
+        "loose-cow-pie": "6 - Loose (\"dairy\") cow pie",
+        "very-loose": "7 - Very loose fecal matter with high water content (running off)",
+        "profuse-watery": "8 - Profuse watery diarrhea with some fecal matter",
+        "pure-liquid": "9 - Pure liquid, like urine"
+      }
+    },
+    "type": {
+      "equine": {
+        "sugar": "Sugar (Sheather's)",
+        "fecasol": "Sodium Nitrate (Fecasol)",
+        "heavy-sodium-nitrate": "Saturated Sodium Nitrate"
+      }
+    },
+    "storage": {
+      "not-refrigerated": "Never Refrigerated",
+      "refrigerated": "Refrigerated"
+    },
+    "dilution": {
+      "none": "No dilution",
+      "one-to-two": "1:2",
+      "one-to-five": "1:5",
+      "one-to-eight": "1:8"
+    },
+    "retrieval-technique": {
+      "free-catch": "Free catch",
+      "traumaticCatheterization": "Traumatic catheterization",
+      "catheterization": "Catheterization",
+      "cystocentesis": "Cystocentesis",
+      "voided": "Voided (Litter Box, Exam Table, etc.)"
+    },
+    "collection-time": {
+      "greater-than-8-hrs": ">8 hours",
+      "one-to-4-hrs": "1 - 4 hours",
+      "four-to-8-hrs": "4 - 8 hours",
+      "zero-to-30-min": "0 - 30 minutes",
+      "thirty-to-60-min": "30 minutes - 1 hour"
+    },
+    "clarity": {
+      "flocculent-chunky": "Flocculent/Chunky",
+      "clear": "Clear (Can Read Through It)",
+      "slightly-cloudy": "Slightly Cloudy",
+      "cloudy": "Cloudy",
+      "opaque": "Opaque"
+    }
+  },
+  "site": {
+    "location": {
+      "face-ear": "Face/Single Ear",
+      "paw": "Paw",
+      "side": "Side",
+      "chest-back": "Chest/Back",
+      "both-ears": "Both Ears"
+    }
+  },
+  "detection": {
+    "grade": {
+      "yes": "Yes",
+      "no": "No",
+      "none-to-rare": "None to Rare",
+      "one": "1+",
+      "two": "2+",
+      "three": "3+",
+      "none-to-rare-0-5": "None to rare (0-5)",
+      "none-to-rare-0-1": "None to rare (0-1)",
+      "none-to-rare-0-less-1": "None to rare (0- <1)",
+      "few-6-20": "Few (6-20)",
+      "few-2-4": "Few (2-4)",
+      "moderate-21-50": "Moderate (21-50)",
+      "moderate-21-10": "Moderate (21-10)",
+      "moderate-5-10": "Moderate (5-10)",
+      "many-50": "Many (>50)",
+      "many-100": "Many (>100)",
+      "many-10": "Many (>10)"
+    }
+  },
+  "tests": {
+    "ar": "Avian/Reptilian Profile Plus",
+    "cdp": "Comprehensive Diagnostic",
+    "epp": "Equine Profile Plus",
+    "kpp": "Kidney Profile Plus",
+    "la": "Large Animal Profile",
+    "mlp": "Mammalian Liver Profile",
+    "prep": "Prep Profile II",
+    "t4": "Thyroxine(T4)/Cholesterol Test",
+    "pt/aptt": "PT/aPTT Combination Test",
+    "fib": "Equine Fibrinogen Test",
+    "ep": "Electrolyte Plus",
+    "pcp": "Preventive Care Profile Plus",
+    "cc": "Critical Care Plus",
+    "pp": "Phenobarbital Profile",
+    "h": "Heartworm Rapid Test",
+    "e": "Ehrlichia Rapid Test",
+    "p": "Parvo Rapid Test",
+    "g": "Giardia Rapid Test",
+    "l": "Lyme Rapid Test",
+    "c": "cPL Rapid Test",
+    "sa": "Urine Sediment",
+    "sa10": "Urine Sediment and UA10",
+    "sa14": "Urine Sediment and UA14",
+    "ua10": "UA10",
+    "ua14": "UA14",
+    "fova": "Fecal Ova/Oocysts",
+    "fgia": "Fecal Giardia",
+    "cwp": "Canine Wellness Profile",
+    "efib": "Equine Fibrinogen",
+    "cfib": "Canine Fibrinogen",
+    "cbt": "Canine Blood Typing",
+    "fbt": "Feline Blood Typing",
+    "ptaptt": "PT/aPTT Combination",
+    "chem8+": "CHEM8+",
+    "cg8+": "CG8+",
+    "glu": "Glu",
+    "cg4+": "CG4+",
+    "crea": "Crea",
+    "cyto": "Digital Cytology",
+    "add": "Add-On Expert Review",
+    "bld": "AI Blood Smear",
+    "gluc": "Glucose",
+    "e3+": "E3+",
+    "ec8+": "EC8+",
+    "6+": "6+",
+    "derm": "AI Dermatology",
+    "cbc": "Complete Blood Count + Retics",
+    "ff": "FeLV_Fiv Rapid Test",
+    "fle": "FLEX4 Rapid Test",
+    "a": "Anaplasma Rapid Test",
+    "eqf": "AI Equine Fecal Egg Count",
+    "urin": "AI Urine Sediment",
+    "hem": "Complete Blood Count",
+    "cbcp": "Hematology"
+  },
+  "timezones": {
+    "pacific.midway": "Midway Island, Samoa",
+    "pacific.honolulu": "Hawaii",
+    "america.juneau": "Alaska",
+    "america.boise": "Mountain Time",
+    "america.dawson": "Dawson, Yukon",
+    "america.chihuahua": "Chihuahua, La Paz, Mazatlan",
+    "america.phoenix": "Arizona",
+    "america.chicago": "Central Time",
+    "america.regina": "Saskatchewan",
+    "america.mexico-city": "Guadalajara, Mexico City, Monterrey",
+    "america.belize": "Central America",
+    "america.detroit": "Eastern Time",
+    "america.bogota": "Bogota, Lima, Quito",
+    "america.caracas": "Caracas, La Paz",
+    "america.santiago": "Santiago",
+    "america.st-johns": "Newfoundland and Labrador",
+    "america.sao-paulo": "Brasilia",
+    "america.tijuana": "Tijuana",
+    "america.montevideo": "Montevideo",
+    "america.argentina.buenos-aires": "Buenos Aires, Georgetown",
+    "america.godthab": "Greenland",
+    "america.los-angeles": "Pacific Time",
+    "atlantic.azores": "Azores",
+    "atlantic.cape-verde": "Cape Verde Islands",
+    "gmt": "UTC",
+    "europe.london": "Edinburgh, London",
+    "europe.dublin": "Dublin",
+    "europe.lisbon": "Lisbon",
+    "africa.casablanca": "Casablanca, Monrovia",
+    "atlantic.canary": "Canary Islands",
+    "europe.belgrade": "Belgrade, Bratislava, Budapest, Ljubljana, Prague",
+    "europe.sarajevo": "Sarajevo, Skopje, Warsaw, Zagreb",
+    "europe.brussels": "Brussels, Copenhagen, Madrid, Paris",
+    "europe.amsterdam": "Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna",
+    "africa.algiers": "West Central Africa",
+    "europe.bucharest": "Bucharest",
+    "africa.cairo": "Cairo",
+    "europe.helsinki": "Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius",
+    "europe.athens": "Athens, Minsk",
+    "asia.jerusalem": "Jerusalem",
+    "africa.harare": "Harare, Pretoria",
+    "europe.moscow": "Istanbul, Moscow, St. Petersburg, Volgograd",
+    "asia.kuwait": "Kuwait, Riyadh",
+    "africa.nairobi": "Nairobi",
+    "asia.baghdad": "Baghdad",
+    "asia.tehran": "Tehran",
+    "asia.dubai": "Abu Dhabi, Muscat",
+    "asia.baku": "Baku, Tbilisi, Yerevan",
+    "asia.kabul": "Kabul",
+    "asia.yekaterinburg": "Ekaterinburg",
+    "asia.karachi": "Islamabad, Karachi, Tashkent",
+    "asia.kolkata": "Chennai, Kolkata, Mumbai, New Delhi",
+    "asia.kathmandu": "Kathmandu",
+    "asia.dhaka": "Astana, Dhaka",
+    "asia.colombo": "Sri Jayawardenepura",
+    "asia.almaty": "Almaty, Novosibirsk",
+    "asia.rangoon": "Yangon Rangoon",
+    "asia.bangkok": "Bangkok, Hanoi, Jakarta",
+    "asia.krasnoyarsk": "Krasnoyarsk",
+    "asia.shanghai": "Beijing, Chongqing, Hong Kong SAR, Urumqi",
+    "asia.kuala-lumpur": "Kuala Lumpur, Singapore",
+    "asia.taipei": "Taipei",
+    "australia.perth": "Perth",
+    "asia.irkutsk": "Irkutsk, Ulaanbaatar",
+    "asia.seoul": "Seoul",
+    "asia.tokyo": "Osaka, Sapporo, Tokyo",
+    "asia.yakutsk": "Yakutsk",
+    "australia.darwin": "Darwin",
+    "australia.adelaide": "Adelaide",
+    "australia.sydney": "Canberra, Melbourne, Sydney",
+    "australia.brisbane": "Brisbane",
+    "australia.hobart": "Hobart",
+    "asia.vladivostok": "Vladivostok",
+    "pacific.guam": "Guam, Port Moresby",
+    "asia.magadan": "Magadan, Solomon Islands, New Caledonia",
+    "asia.kamchatka": "Kamchatka, Marshall Islands",
+    "pacific.fiji": "Fiji Islands",
+    "pacific.auckland": "Auckland, Wellington",
+    "Pacific.Tongatapu":"Nuku'alofa"
+  },
+  "eula": {
+    "title": "VETSCAN® Hub User License Agreement",
+    "subtitle": "Last Updated As of March 2024",
+    "para-1": "This End-User License Agreement or <1>EULA</1> is a legal agreement between the person who was supplied with the VetScan® Hub Device (<1>You</1>) and the Zoetis entity that supplied, directly or indirectly, the device to You (<1>Zoetis, our, we or us</1>). This EULA governs Your use of the website and mobile application, and any other related software along with any updates, modifications and corrections thereto (<1>collectively referred to as the Platform</1>), which allows a single point of etccreateengagement for information collected from the Vetscan Hub Connectivity Solution (as defined below).  By using the Platform or any updates to it (<1>Updates</1>), You agree to be bound by this EULA. If You do not agree to this EULA, you must choose not to use the Platform. In addition, by installing or using any Updates, You agree to be bound by any terms that accompany those Updates. If You do not agree to those additional terms, You must not install or use the Update.",
+    "para-2": "The Platform can be used to (a) access test requests, results and reports from Zoetis diagnostics in support of Your clinic and connected via the VetScan Hub Device or other related Zoetis diagnostic software or applications (b) visualize lab results over time; (c) print/share the results/reports; (d) access user registration and management (<1>collectively, the Purpose</1>).",
+    "para-3": "f you are accepting these terms on behalf of a company or other legal person, you must have full authority to bind that company or person to these terms. ",
+    "list-1": {
+      "title": "USE OF THE PLATFORM",
+      "desc-1-1": "Zoetis allows You to use the Platform by registering as an administrator using certain required information like name, address, contact details of the clinic (<1>Administrator Account</1>). You will be able to allow additional users to use the Platform by entering their name, address, contact details and their role at the clinic (<1>User Accounts</1>). You will provide and maintain true and accurate information relating the Administrator and User Accounts created by You.",
+      "desc-1-2": "You will be responsible for maintaining the confidentiality of the Administrator Account information and User Accounts created by You. You will also be fully responsible for all activities that occur under Your account(s). You will notify Zoetis immediately of any unauthorized use of Your account information or any other breach of security or access.",
+      "desc-1-3": "We grant You a non-exclusive, non-transferable, non-sublicensable license to use the Platform solely for the Purpose, subject to terms of this EULA.",
+      "desc-1-4": "We may carry out, implement, and install Updates to the Platform at any time at our sole discretion without any notice. The Platform may not be available at all times, such as during maintenance breaks.",
+      "desc-1-5": "You must not:",
+      "desc-1-5-1": "publish, change, modify, develop, copy or adapt the software integrated in the Platform, in whole or in part, without our prior written approval;",
+      "desc-1-5-2": "reverse engineer, decompile, or disassemble the software integrated in the Platform, except to the extent such is expressly permitted by applicable law;",
+      "desc-1-5-3": "interfere with or disrupt the servers or networks connected to the Platform, or disobey any requirements, procedures, policies, or regulations of networks connected to the Platform;",
+      "desc-1-5-4": "use the Platform or any of its capabilities in such a way that it could lead to damage, shutdown, overload, damage or deterioration of the quality of our systems or security or interference with the data of other users;",
+      "desc-1-5-5": "broadcast, publish or transmit any unlawful, harassing, libellous, defamatory, abusive, threatening, or harmful material of any kind or broadcast, publish or transmit any material that encourages conduct that could constitute a criminal offence, give rise to civil liability, or otherwise violate any applicable law; or",
+      "desc-1-5-6": "rent, lease, assign, grant a security interest, transfer or sell any right or interest or lend the access to the Platform."
+    },
+    "list-2": {
+      "title": "RISK",
+      "desc-2-1": "To the maximum extent permitted by applicable law, we:",
+      "desc-2-1-1": "provide the Platform “as is”;",
+      "desc-2-1-2": "make no warranty, representation, or guarantee as to the Platform’s use or performance, and disclaims all warranties, representations and guarantees, including any implied warranties of merchantability, quality, accuracy, fitness for a particular purpose or use, title, non-infringement, or systems integration; and",
+      "desc-2-1-3": "without limiting clause 2.1.2, do not warrant, represent, or guarantee that the operation of the Platform will be fail- safe, uninterrupted, or free from errors or defects or that the Platform will protect against all possible threats. ",
+      "desc-2-2": "You acknowledge and agree that access and uninterrupted performance of the Platform will require a stable internet connection for which You will be solely responsible.  Please note that in the case of the VetScan Hub Connectivity Solution, optimal broadband speeds may be dependent upon the Zoetis analyzer you are using.  Please contact your Zoetis representative with any questions.",
+      "desc-2-3": "We are not liable to You for any loss of profit, business interruption, or loss of business information, or any indirect, special, incidental, punitive, exemplary, or consequential loss or damage of any kind however caused arising out of or in connection with the use or inability to use the Platform",
+      "desc-2-4": "In any case, to the maximum extent permitted by applicable law, our maximum aggregate liability to You under this EULA is limited to the list price of the VetScan Hub Device as of the date it was first supplied to You",
+      "desc-2-5": "Where consumer protection or similar legislation does not permit us to limit or exclude our liability as set out in clauses 2.1, 2.2 or 2.3 then, to the extent permitted by applicable law, our liability to You is limited to replacing the VetScan Hub Device or supplying an equivalent.",
+      "desc-2-6": "Notwithstanding anything contained in this EULA, You expressly acknowledge that the Platform only acts as a communication system. Zoetis shall have no responsibility for any diagnosis, medical decisions, or treatment provided by You or for any information or content (public or private) shared or posted by You or those authorized or not authorized by You (but under Your User Account(s)). You hereby indemnify Zoetis, its directors, subsidiaries, affiliates, officers, agents and employees and hold them harmless from any loss, liability, claim or demand, including reasonable attorney fees arising out of any claim by a third party arising due to performance or non-performance of obligations under this EULA by You including, but not limited to, insufficiency in medical care and treatment, medical negligence, failure to warn, breach of intellectual property and data breach, any information or content (public or private) shared or posted by You or those authorized or not authorized by You (but under Your User Account(s)), and security breach. "
+    },
+    "list-3": {
+      "title": "RESPECTING PRIVACY",
+      "desc-3-1": "Please review the Zoetis Privacy Policy to understand the information Zoetis collects, Zoetis’ use of that information and the choices Zoetis offers Users. "
+    },
+    "list-4": {
+      "title": "INTELLECTUAL PROPERTY",
+      "desc-4-1": "All Intellectual Property Rights (as defined below) in the Platform belong to Zoetis, its affiliates or its licensors.  The Platform, including its object code and source code, is strictly confidential to Zoetis, its affiliates or its licensors. Nothing in this EULA gives You a right or license to use any of Zoetis’ Intellectual Property Rights."
+    },
+    "list-5": {
+      "title": "ETHICAL CONDUcT",
+      "desc-5-1": "Zoetis represents, warrants and undertakes that it will not through the provision of the Platform seek improperly to influence You with the intent to improperly obtain or retain business for Zoetis or for any other improper purpose.",
+      "desc-5-2": "You represent, warrant and undertake to Zoetis that You will not (directly or indirectly) offer, pay or authorise the offer/payment of any money or the giving of anything of value or do any other thing in order to exert improper influence on any government official or any other person and that it has not accepted and will not accept in the future such a payment. You further confirm that the purpose of the provision of the Platform is not to improperly influence You or anyone else."
+    },
+    "list-6": {
+      "title": "REPRESENTATIONS AND WARRANTIES; OWN USE",
+      "desc-6-1": "You represent and warrant that: (i) You are a legal entity registered within the state(s), province(s) or country(ies) in which You do business; (ii) You are compliant with all applicable licensing requirements within the state(s), province(s) or country(ies) in which You do business; (iii) You have acquired the Platform for Your own use, and will use the Platform solely in connection with the Purpose.  If you are a legal entity established and organized under the laws of a country other than the United States of America, You represent and warrant that: (x) You will not, directly or indirectly, Yourself or through third-parties, export or cause our goods and services to be exported to the United States of America and You do not intend for our goods and services to be used, consumed or disposed of within the United States of America; (y) You will not cause our goods and services to be subject to processing, distribution, assembly or manufacturing within the United States of America; and (z) any services provided by us will be provided to offices, facilities or other operations of you located outside of the United States of America, for use outside the United States of America."
+    },
+    "list-7": {
+      "title": "URATION OF THIS EULA",
+      "desc-7-1": "There is no obligation on You to use the Platform and You can stop using it at any time.",
+      "desc-7-2": "We may terminate this EULA immediately by notice to You if: (i) You breach Clause 5 of this EULA; (ii) we discover that: (a) improper payments are being or have been made to any government official or any other person by or on behalf of You (whether in connection with this EULA or not); or (b) You or those acting on behalf of You have accepted any payment, item or benefit (regardless of value) as an improper inducement to award, obtain or retain business or otherwise gain or grant an improper business advantage; (iii) You commit a material breach of this EULA including, without limitation, using the Platform other than for the Purpose; or (iv) You return the VetScan Hub Device.",
+      "desc-7-3": "If this EULA is terminated, You must destroy or delete, as applicable, all archived copies of the Platform and the software integrated in the Platform to the extent in your possession.",
+      "desc-7-4": "Termination of this EULA does not affect any rights of a party that accrued before termination."
+    },
+    "list-8": {
+      "title": "REPRESENTATIONS AND WARRANTIES; OWN USE",
+      "desc": "Zoetis may modify this EULA at any time in its sole discretion without seeking your prior consent.  We will inform you whenever the terms contained herein are updated and You will  be prompted to accept such updated terms and conditions. If You do not approve of such modifications, You may terminate this EULA by serving a written notice to Zoetis, at which point  your access to the Platform will be immediately discontinued. Your continued usage of the Platform shall be deemed to be an acceptance of these terms and the modifications thereto. "
+    },
+    "list-9": {
+      "title": "DEFINITIONS",
+      "subtitle-1": "“Hub Device”",
+      "desc-1": " means the Hub device supplied by Zoetis and used in Your practice;",
+      "subtitle-2": "“Intellectual Property Rights”",
+      "desc-2": " means all registered or unregistered patents, trademarks, services marks, domains, registered designs (and any applications for any of the foregoing), copyright (including rights in software - object code and source code), databases, inventions, discoveries, know-how and any other intellectual or industrial property rights;",
+      "subtitle-3": "“Practice Information Management Software”",
+      "desc-3": " shall mean the software solution purchased and/or licensed by the clinic enabling clinics to, without limitation, schedule patient appointment, identify requested tests, associate billing codes and use as the official medical record;",
+      "subtitle-4": "“Vetscan Hub Connectivity Solution”",
+      "desc-4": " means the solution which allows integration between Zoetis analyzers and the Practice Information Management Software; and"
+    },
+    "list-10": {
+      "title": "GOVERNING LAW",
+      "desc": "This EULA and any dispute or claim arising out of or in connection with it or its subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of the country of the Zoetis entity which supplied, directly or indirectly, the Platform to you. Both parties irrevocably submit to the non-exclusive jurisdiction of the courts of that country to settle any dispute or claim that arises out of or in connection with this EULA or its subject matter."
+    }
+  }
+}
