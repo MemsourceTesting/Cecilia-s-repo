@@ -1,0 +1,908 @@
+{
+  "generic": {
+    "loading": "Loading...",
+    "yes": "Yes",
+    "no": "No",
+    "unknown": "Unknown"
+  },
+  "navbar": {
+    "patients": "Patients",
+    "tests": "Tests",
+    "my-lab": "My Lab",
+    "settings": "Settings"
+  },
+  "onboarding": {
+    "submit-btn": "Continue",
+    "region": {
+      "title": "Region selection",
+      "placeholder": "Select your region"
+    },
+    "eula-privacy": {
+      "eula-title": "End user license agreement",
+      "privacy-title": "Privacy policy",
+      "eula-check": "I have read and agree to the end user license agreement",
+      "privacy-check": "I have read and agree to the Zoetis privacy policy"
+    },
+    "clinic-form": {
+      "title": "Practice data",
+      "clinic-name": "Practice name",
+      "clinic-street": "Practice street address",
+      "clinic-city": "City",
+      "clinic-state": "State or province",
+      "clinic-postal-code": "Postal code",
+      "clinic-website": "Practice website address",
+      "phone-number": "Practice phone number",
+      "fields-required-left": "Fields marked with",
+      "fields-required-right": "are required",
+      "validation": {
+        "practice-name": {
+          "required": "Practice name is required",
+          "max-length": "Practice name must be no longer than {{max}} characters"
+        },
+        "practice-street": {
+          "max-length": "Practice street must be no longer than {{max}} characters"
+        },
+        "practice-city": {
+          "max-length": "City name must be no longer than {{max}} characters"
+        },
+        "practice-state": {
+          "max-length": "State or province must be no longer than {{max}} characters"
+        },
+        "practice-postal-code": {
+          "max-length": "Postal code must be no longer than {{max}} characters"
+        },
+        "practice-website": {
+          "max-length": "Practice website address must be no longer than {{max}} characters"
+        },
+        "practice-phone-number": {
+          "max-length": "Practice phone number must be no longer than {{max}} characters"
+        }
+      }
+    },
+    "date-time": {
+      "title": "Date and time",
+      "24-hr-clock": "24 hour clock",
+      "current-date-time": "Current date and time",
+      "time-zone": {
+        "label": "Select time zone",
+        "placeholder": "Select your timezone"
+      }
+    },
+    "setup-complete": {
+      "title": "Setup complete"
+    }
+  },
+  "general-settings": {
+    "title": " General settings",
+    "tabs": {
+      "about": "About",
+      "time": "Date & Time",
+      "language": "Language",
+      "practice-info": "Practice information"
+    },
+    "about": {
+      "software-version": "Current version",
+      "ip-address": {
+        "label": "HUB IP address",
+        "notconnected": "Not connected"
+      },
+      "serial-number": "Serial number"
+    },
+    "submit-label": "Save settings"
+  },
+  "settings-page": {
+    "tab": {
+      "general": "General settings",
+      "pims": "PIMS",
+      "devices": "Devices",
+      "eula": "End-user license agreement",
+      "privacy-policy": "Privacy policy"
+    },
+    "title": "Settings"
+  },
+  "pims-settings": {
+    "title": "PIMS settings",
+    "connect-to-pims": "Connect with PIMS",
+    "is-first-connection": "First time connecting to PIMS?",
+    "disconnect-from-pims": {
+      "home-button": "Disconnect from PIMS",
+      "title": "Disconnect from PIMS",
+      "body-message": "Are you sure you want to disconnect from PIMS?",
+      "confirmation-button": "Yes, disconnect from PIMS",
+      "cancel-button": "Cancel"
+    },
+    "generate-transfer-code": "Generate Transfer Code",
+    "message": "Are you sure you want to disconnect from PIMS?",
+    "confirmation-button": "Yes, disconnect from PIMS",
+    "first-connection.no": "No, I am re-establishing a connection",
+    "first-connection.yes": "Yes, first time",
+    "enter-otp.label": "Enter transfer code / One time password (OTP)",
+    "enter-otp.reconnect": "Reconnect with your PIMS",
+    "first-time-pims-selection": {
+      "fetching-modal": {
+        "title": "Fetching list of PIMS. Please wait...",
+        "cancel": "Cancel"
+      },
+      "fetch-error-modal": {
+        "title": "Failed to fetch PIMS list",
+        "description": "If the problem persists, contact Zoetis support.",
+        "ok": "OK"
+      },
+      "error-message": {
+        "red-section": "Failed to connect to PIMS. ",
+        "black-section": "Please check your connection and try again. If the problem persists, call Zoetis Support."
+      },
+      "fetching-list-of-pims": "Fetching list of PIMS. Please wait...",
+      "cancel-fetching": "Cancel",
+      "select-your-pims": "Select your PIMS",
+      "no-pims-selected": "No PIMS selected",
+      "connecting": "Connecting with PIMS",
+      "connect-with-pims": "Connect with PIMS"
+    },
+    "tab": {
+      "integration": "PIMS integration",
+      "test-result-settings": "Test result settings"
+    },
+    "modal": {
+      "error.header": "Unable to establish connection",
+      "error.body": "If the problem persists, contact Zoetis support.",
+      "successfully-connected": "Connected to PIMS successfully",
+      "server-mode.connected": "Server mode connection established",
+      "server-mode.body": "Check your email for credentials to complete the connection.",
+      "server-mode.header": "Email address needed to receive credentials",
+      "server-mode.error.title": "Encountered an error",
+      "ok-btn": "Ok"
+    },
+    "connected": {
+      "otp-generator": {
+        "header": "Transfer PIMS connection to a new HUB",
+        "ok-btn": "OK",
+        "expire-warning": "Code will expire in 24 hours",
+        "error": {
+          "header": "Unable to generate OTP code",
+          "message": "If the problem persists, contact Zoetis support.",
+          "ok-btn": "OK"
+        }
+      },
+      "transfer-connection": "Transfer this connection to a new HUB",
+      "transfer-button": "Generate transfer code"
+    },
+    "connected-to": "Connected to",
+    "client-id": "Client ID:",
+    "connecting": "Connecting with your PIMS",
+    "validation": {
+      "otp": {
+        "required": "OTP is required",
+        "min-length": "OTP must be 6 characters",
+        "matches": "Invalid OTP"
+      },
+      "email": {
+        "matches": "Improperly formatted email address."
+      }
+    },
+    "server-mode": "Server mode connection",
+    "connect": "Connect",
+    "email.label": "Email address",
+    "badge": {
+      "header": "PIMS",
+      "connected": "Connected to {{pimsName}}",
+      "error": "Disconnected from {{pimsName}}",
+      "disconnected-by-user": "Disconnected from {{pimsName}}",
+      "not-connected": "Not connected"
+    }
+  },
+  "device-settings": {
+    "title": "Device settings",
+    "tab": {
+      "imagyst": "Imagyst"
+    },
+    "imagyst": {
+      "badge": {
+        "header": "Imagyst",
+        "connected": "Connected to {{companyName}}",
+        "error": "Disconnected from {{companyName}}",
+        "disconnected-by-user": "Not connected",
+        "not-connected": "Not connected"
+      },
+      "form": {
+        "email": {
+          "label": "Imagyst app email",
+          "invalid": "Improperly formatted email address.",
+          "required": "Email is required"
+        },
+        "password": {
+          "label": "Imagyst app password",
+          "required": "Password is required"
+        }
+      },
+      "connect-button": {
+        "connect": "Connect to IMAGYST",
+        "connecting": "Connecting to IMAGYST",
+        "disconnect": "Disconnect IMAGYST"
+      },
+      "error-modal": {
+        "title": "Unable to establish Imagyst connection",
+        "invalid-credentials": "Invalid username or password",
+        "unreachable": "Could not connect to Imagyst - check your internet connection or try again later",
+        "unexpected": "An unexpected error occured, please try again later",
+        "permissions": "This account does not have the required permissions to establish a new connection.",
+        "body": "If the problem persists, contact Zoetis support.",
+        "ok": "Ok"
+      },
+      "disconnect-modal": {
+        "title": "Disconnect from IMAGYST",
+        "body": "Are you sure you want to disconnect from IMAGYST?",
+        "confirmation-button": "Yes, disconnect from IMAGYST",
+        "cancel-button": "Cancel"
+      }
+    }
+  },
+  "testlist": {
+    "title": "Tests list",
+    "details": "Test detail",
+    "quick-test-btn": "Quick test",
+    "emergency-patient": "Emergency patient",
+    "select-consumables": {
+      "title": "Select test(s)",
+      "no-analyzer-msg": "Please connect an analyzer to the Hub to run a test.",
+      "submit-btn": "Next step"
+    },
+    "select-patient": {
+      "name": "Name",
+      "patient-id": "Patient ID",
+      "species": "Species",
+      "breed": "Breed",
+      "selected": "Patient selected",
+      "not-selected": "Select patient",
+      "title": "Select patient",
+      "emergency-test": "Emergency test",
+      "submit-btn": "Next step"
+    },
+    "order-summary": {
+      "title": "Order summary",
+      "default-msg": "Default message (to be implemented)",
+      "submit-btn": "Submit order"
+    },
+    "patient-info": {
+      "title": "Patient information",
+      "quick-test": "Quicktest",
+      "no-patient": "No patient selected"
+    },
+    "test-wizard": {
+      "title": "Create order",
+      "step": "Step {{step}} of 3"
+    },
+    "tabs": {
+      "all-tests": "All tests",
+      "worklist": "Worklist",
+      "completed": "Completed tests",
+      "columns": {
+        "patient": "Patient",
+        "test": "Test",
+        "platform": "Platform",
+        "device": "Device",
+        "species": "Species",
+        "status": "Status",
+        "progress": "Progress",
+        "view-details": "View details",
+        "start-test": "Start test"
+      },
+      "status-btn": {
+        "all-tests": "All tests",
+        "pending": "Pending",
+        "ready": "Ready",
+        "running": "Running",
+        "results": "Results",
+        "error": "Error"
+      }
+    }
+  },
+  "patients": {
+    "title": "Patients",
+    "search-placeholder": "Search patient ID or name",
+    "view-owner-list": "View owners list",
+    "add-patient": "Add patient",
+    "no-result": "No results to display",
+    "all-species": "All species",
+    "species-list": "{{species}}",
+    "gender": "{{gender}}",
+    "group": "{{group}}",
+    "details": {
+      "title": "Patient details"
+    },
+    "patients-add": {
+      "header": "Add new patient",
+      "fields-required-left": "Fields marked with",
+      "fields-required-right": "are required",
+      "patient-id": "Patient ID",
+      "patient-name": "Patient name",
+      "species": "Species",
+      "breed": "Breed",
+      "birthdate": "Birthdate",
+      "sex": "Sex",
+      "notes": "Notes",
+      "submit-label": "Add patient",
+      "placeholder": {
+        "species": "Select species",
+        "sex": "Select sex"
+      },
+      "validation": {
+        "patient-id": {
+          "required": "Patient ID is required",
+          "max-length": "Patient ID must be no longer than 14 characters"
+        },
+        "patient-name": {
+          "required": "Patient name is required",
+          "max-length": "Patient name must be no longer than 255 characters"
+        },
+        "breed": "Patient breed must be no longer than 255 characters",
+        "species": "Species selection is required",
+        "gender": "Sex selection is required",
+        "birthdate": "Entered date is not valid"
+      }
+    },
+    "patient-edit": {
+      "edit-patient": "Edit patient",
+      "fields-required-left": "Fields marked with",
+      "fields-required-right": "are required",
+      "update-patient": "Update patient",
+      "label": {
+        "species": "Species",
+        "breed": "Breed",
+        "sex": "Sex",
+        "owner": "Owner",
+        "birthdate": "Birthdate"
+      }
+    },
+    "tabs": {
+      "all-patients": "All patients",
+      "current-tests": "Current orders",
+      "test-history": "Test history"
+    },
+    "tab-columns": {
+      "test": "Test",
+      "platform": "Platform",
+      "device": "Device",
+      "status": "Status",
+      "progress": "Progress"
+    },
+    "tab-no-result": "No results to display"
+  },
+  "owners": {
+    "title": "Owners",
+    "search-placeholder": "Search owner ID or owner name",
+    "assigned-patients": "Assigned patients",
+    "manage-assigned-patients": "Manage assigned patients",
+    "add": {
+      "title": "Add new owner",
+      "fields-required-left": "Fields marked with",
+      "fields-required-right": "are required",
+      "submit": "Add owner"
+    },
+    "edit": {
+      "edit-owner": "Edit owner",
+      "update-owner": "Update owner"
+    },
+    "details": {
+      "title": "Owners detail",
+      "phone": "Phone"
+    },
+    "assign": {
+      "title": "Assign patient"
+    },
+    "validation": {
+      "first-name": {
+        "required": "Owner first name is required",
+        "max-length": "Owner first name must be no longer than {{max}} characters"
+      },
+      "last-name": {
+        "required": "Owner last name is required",
+        "max-length": "Owner last name must be no longer than {{max}} characters"
+      },
+      "owner-id": "Owner ID must be no longer than {{max}} characters",
+      "email": "Owner email must be no longer than {{max}} characters",
+      "phone": "Owner phone must be no longer than {{max}} characters"
+    },
+    "headers": {
+      "last-name": "Last name",
+      "first-name": "First name",
+      "owner-id": "Owner ID",
+      "phone-number": "Phone number",
+      "address": "Address",
+      "email": "Email",
+      "view-details": "View details"
+    },
+    "tab-columns": {
+      "patient-name": "Patient name",
+      "patient-id": "Patient ID",
+      "species": "Species",
+      "breed": "Breed",
+      "assign-patient": "Assign patient",
+      "patient-assigned": "Patient assigned"
+    }
+  },
+  "my-lab": {
+    "title": "My Lab",
+    "systems-header": "Systems",
+    "no-devices-msg": "No devices available",
+    "instrument": {
+      "platform": " {{platform}} devices",
+      "type": "{{type}}",
+      "status": "{{status}}",
+      "card": {
+        "SN": "SN"
+      },
+      "details": {
+        "title": "Device information",
+        "device-type": "{{platform}} device",
+        "btn-type": "{{button}} device",
+        "status": "Status",
+        "serial-no": "Serial number",
+        "software": "Software",
+        "connection-type": "Physical connection type",
+        "last-transmission": "Last transmission",
+        "device-date-time": "Device date time",
+        "mobile-os": "Mobile OS",
+        "mobile-user": "User",
+        "edit-device": "Edit device",
+        "shutdown": "Shut down",
+        "identify": "Identify",
+        "power-on": "Power on",
+        "quality-control": "Create quality control test",
+        "test-tabs": {
+          "current-tests": "Current tests",
+          "test-history": "Test history"
+        },
+        "modal": {
+          "error-header": "An error has occurred",
+          "error-msg": "Device was unable to {{label}}",
+          "action-msg": "Are you sure you want to {{label}} this device?",
+          "ok-btn": "Ok",
+          "cancel-btn": "Cancel"
+        },
+        "edit": {
+          "serialNumber": "{{serialNumber}}",
+          "unpair-msg": "If you unpair the device you will not see the device again until it is reconnected to the Hub.",
+          "unpair-device": "Unpair device",
+          "modal": {
+            "msg": "Please unplug and disconnect device from the network before unpairing.",
+            "confirmation-msg": "Do you wish to continue with unpairing this device?",
+            "btn": {
+              "yes": "Yes",
+              "no": "No"
+            }
+          }
+        }
+      }
+    }
+  },
+  "measurement": {
+    "cancel-btn": "Cancel test",
+    "test-date": "Test date",
+    "warning-result": {
+      "title": "Warning flag",
+      "warning-flag": "{{warning}}"
+    },
+    "status": {
+      "pending": "Pending",
+      "submitted": "Pending",
+      "accepted": "Pending",
+      "ready": "Ready",
+      "running": "Running",
+      "complete": "Complete",
+      "error": "Error",
+      "cancel": "Cancelled"
+    },
+    "details": {
+      "status": {
+        "pending": "Pending",
+        "submitted": "Pending",
+        "accepted": "Pending",
+        "ready": "Ready",
+        "running": "Running",
+        "complete": "Results available",
+        "error": "Test error",
+        "cancel": "Cancelled"
+      },
+      "actions": {
+        "resend-to-pims": "Resend to PIMS"
+      }
+    },
+    "modal": {
+      "cancel-header": "Cancel test",
+      "cancel-msg": "Are you sure you want to cancel this test?",
+      "ok-btn": "Yes, cancel test",
+      "not-ok-btn": "No, resume test"
+    },
+    "results": {
+      "serialNumber": {
+        "standard": "{{typeName}} - {{serialNumber}}",
+        "imagyst": "Imagyst - {{companyName}}"
+      },
+      "result-columns": {
+        "test": "Test",
+        "graph": "Graph",
+        "result": "Result",
+        "unit": "Unit",
+        "reference": "Reference"
+      }
+    }
+  },
+  "management": {
+    "title": "Management",
+    "clear-instruments": "Clear instruments",
+    "clear-tests": "Clear tests",
+    "clear-tests-instruments": "Clear tests and instruments",
+    "clear-onboarding": "Clear onboarding status & data"
+  },
+  "prompts": {
+    "apply-sample": {
+      "title": "Apply sample",
+      "msg": "Please ensure that sample has been obtained in a citrate test tube."
+    },
+    "cartridge-code": {
+      "title": "Cartridge code number"
+    },
+    "disconnected": {
+      "description": "Connection lost... attempting reconnect"
+    },
+    "histogram": {
+      "title": "{{name}} histogram"
+    },
+    "insert-cartridge": "Insert cartridge into blinking device",
+    "ltf-binary-result-columns": {
+      "test-type": "Test type",
+      "result": "Result",
+      "error-desc": "Error description",
+      "error": "Test encounted an error"
+    },
+    "ltf-cpl-result-columns": {
+      "test-type": "Test type",
+      "concentration": "Concentration",
+      "ref-range": "Reference range",
+      "result": "Result"
+    },
+    "insert-sample": {
+      "timed-scan": {
+        "apply-sample-1": "Apply sample and buffer",
+        "apply-sample-2": "to cassette",
+        "insert-consumable-1": "Open drawer and insert",
+        "insert-consumable-2": "cassette into device",
+        "close-drawer-1": "Close drawer on device",
+        "close-drawer-2": "to scan cassette"
+      },
+      "quick-scan": {
+        "insert-consumable-1": "Open drawer and insert",
+        "insert-consumable-2": "consumeable into device",
+        "close-drawer-1": "Close drawer on device",
+        "close-drawer-2": "to scan cassette"
+      },
+      "hmx": {
+        "apply-sample-1": "Apply sample",
+        "apply-sample-2": "to sampler",
+        "insert-sampler-1": "Insert sampler into",
+        "insert-sampler-2": "cartridge",
+        "insert-consumable-1": "Insert cartridge into",
+        "insert-consumable-2": "device",
+        "qc": "Insert control cartridge into device"
+      }
+    },
+    "ltf-scan-type": {
+      "timed-scan-btn": "Timed scan",
+      "quick-scan-btn": "Quick scan"
+    },
+    "measurement-cancelled": {
+      "title": "Test cancelled by user"
+    },
+    "measurement-error": {
+      "title": "{{title}}",
+      "description": "{{description}}",
+      "timestamp": "{{timestamp}}"
+    },
+    "pending": {
+      "accepted": "Test order is pending on {{serialNumber}}.",
+      "no-device": "Test order pending, no device assigned.",
+      "general-worklist": "Test order is pending in general worklist",
+      "on-imagyst": "Pending in Imagyst worklist"
+    },
+    "submitted": "Test order is waiting to be sent to {{serialNumber}}.",
+    "prepare-sample": {
+      "title": "Prepare sample while cartridge warms",
+      "msg-1": "Please ensure that sample has been obtained in a citrate test tube.",
+      "msg-2": "Do not apply prepared sample until prompted."
+    },
+    "progress": {
+      "description": "{{description}}"
+    },
+    "species": "Cannot determine patient species.",
+    "tabs": {
+      "title": "{{title}}",
+      "result": "Result",
+      "images": "Images"
+    },
+    "text-result": {
+      "columns": {
+        "test": "Test",
+        "result": "Result"
+      }
+    },
+    "pass-fail-result": {
+      "columns": {
+        "test": "Test",
+        "result": "Result"
+      }
+    },
+    "timed-progress": {
+      "description": "{{description}}",
+      "time-remaining": "Time remaining:",
+      "total-time": "Total time:"
+    },
+    "vs3-insert": {
+      "add-sample": "Add sample",
+      "place-rotor": "Place rotor in open drawer",
+      "close-drawer": "Close Drawer and Continue"
+    },
+    "img-result": {
+      "columns": {
+        "detection": "Analyte",
+        "count": "Count",
+        "images": "Images",
+        "presence": "Presence",
+        "blood-cells": "Blood cells",
+        "bacteria": "Bacteria",
+        "crystal": "Crystals",
+        "casts": "Casts",
+        "epithelial-cells": "Epithelial cells",
+        "semi-quant-hpf": "Semi-Quant (Per HPF)",
+        "semi-quant-lpf": "Semi-Quant (Per LPF)"
+      }
+    },
+    "img-fecal-result-columns": {
+      "epg": "EPG"
+    },
+    "img-dermatology-result-columns": {
+      "bacteria-yeast": "Bacteria & yeast",
+      "white-blood-cells": "Inflammatory WBC"
+    },
+    "img-bloodsmear-result-columns": {
+      "detection": "Analyte",
+      "graph": "Graph",
+      "count": "Results",
+      "unit": "Unit"
+    },
+    "submit-btn": "Submit"
+  },
+  "components": {
+    "back-btn": "Back",
+    "platform": "{{platform}}",
+    "dropdown-filter": {
+      "filter-by": "Filter by",
+      "label": "{{label}}",
+      "options": "{{options}}"
+    },
+    "patient-card": {
+      "name": "{{name}}",
+      "clinic-id": "{{clinicId}}",
+      "species": "{{species}}",
+      "breed": "{{breed}}"
+    }
+  },
+  "analytes": {
+    "rapid": {
+      "chw": "Heartworm",
+      "ehr": "Ehrlichia",
+      "par": "Parvo",
+      "gia": "Giardia",
+      "lym": "Lyme",
+      "cpl": "Canine Pancreatic Lipase",
+      "fiv": "Feline Immunodeficiency Virus",
+      "fel": "Feline Leukemia Virus",
+      "ana": "Anaplasma"
+    },
+    "imagyst": {
+      "ancy": "Ancylostoma (hookworm)",
+      "coc": "Cystoisospora (coccidia)",
+      "gia": "Giardia",
+      "tae": "Taenia (tapeworm)",
+      "tox": "Toxocara (roundworm)",
+      "tri": "Trichuris (whipworm)",
+      "para": "Parascaris (roundworm)",
+      "stro": "Strongyles",
+      "bacteria": "Bacteria",
+      "yeast": "Yeast",
+      "derm-wbc": "White Blood Cells",
+      "derm-rods": "Rods",
+      "derm-cocci": "Cocci",
+      "derm-neutrophil-normal": "Neutrophils",
+      "derm-neutrophil-bacteria": "Neutrophils (containing bacteria)",
+      "derm-macrophage": "Macrophages",
+      "derm-lymphocyte": "Lymphocytes",
+      "derm-eosinophil": "Eosinophils",
+      "derm-malassezia": "Malassezia",
+      "ewbc": "Estimated WBC Count",
+      "neu": "Neutrophil",
+      "lym": "Lymphocyte",
+      "mon": "Monocyte",
+      "eos": "Eosinophil",
+      "bas": "Basophil",
+      "wbc%": "WBC Percent",
+      "neu%": "Neutrophil (%)",
+      "lym%": "Lymphocyte (%)",
+      "mon%": "Monocyte (%)",
+      "eos%": "Eosinophil (%)",
+      "bas%": "Basophil (%)",
+      "erbc": "Red Blood Cell",
+      "rbc": "Nucleated RBC",
+      "pol": "Polychromatophilic",
+      "plt": "Estimated Platelet Count",
+      "lplt": "Large Aggregated Platelet",
+      "mplt": "Medium Aggregated Platelet",
+      "bneu": "Band Neutrophil",
+      "bneu%": "Band Neutrophil (%)",
+      "sneu": "Segmented Neutrophil",
+      "sneu%": "Segmented Neutrophil (%)",
+      "aca": "Acanthocyte",
+      "ecc": "Eccentrocyte",
+      "ech": "Echinocyte",
+      "ker": "Keratocyte",
+      "sch": "Schistocyte",
+      "aplt": "Aggregated Platelet",
+      "dobd": "Dohle Body",
+      "u-wbc": "WBCs",
+      "u-rbc": "RBCs",
+      "u-coc": "Cocci",
+      "u-coc-cl": "Cocci Clusters & Chains",
+      "u-rod": "Rods",
+      "u-rod-cl": "Rods Clusters & Chains",
+      "u-hyac": "Hyaline Cast",
+      "u-nhyac": "Non-hyaline Cast",
+      "u-str": "Struvite",
+      "u-cal": "Calcium Oxalate dihydrate",
+      "u-squ": "Squamous Epithelial Cells",
+      "u-oepi": "Other epithelial Cells",
+      "u-epi-cl": "Epithelial Cell Cluster"
+    }
+  },
+  "sample": {
+    "info": {
+      "fec-color": "Color",
+      "fec-consist": "Consistency",
+      "fec-comm": "Notes",
+      "eqf-consist": "Consistency",
+      "sol": "Solution",
+      "blood-presence": "Blood Presence",
+      "site-location": "Site Location",
+      "notes-bld": "Comment",
+      "u-retrieval": "Urine retrieval technique",
+      "u-clarity": "Clarity",
+      "u-vol": "Urine volume",
+      "u-ph": "pH",
+      "u-color": "Color before centrifugation",
+      "u-hematuric": "Color after centrifugation",
+      "u-dilution-fac": "Dilution factor",
+      "u-time": "Collect time",
+      "u-storage": "Storage condition",
+      "u-usg": "USG"
+    },
+    "color": {
+      "brown": "Brown",
+      "light-brown": "Light Brown",
+      "black": "Black",
+      "green": "Green",
+      "light-green": "Light Green",
+      "yellow": "Yellow",
+      "yellow-with-mucus": "Yellow With Mucus",
+      "orange": "Orange",
+      "yellow-orange": "Yellow Orange",
+      "gray": "Gray",
+      "pink-purple": "Pink / Purple",
+      "bloody": "Bloody / Red Streaked",
+      "colorless": "Colorless",
+      "light-red": "Light Red",
+      "red": "Red",
+      "pink": "Pink",
+      "light-orange": "Light Orange",
+      "dark-orange": "Dark Orange",
+      "light-yellow": "Light Yellow",
+      "light-medium-yellow": "Light to Medium Yellow",
+      "dark-yellow": "Dark Yellow",
+      "straw": "Straw",
+      "light-straw": "Light Straw",
+      "white": "White",
+      "green-tint": "Green Tint",
+      "same": "Same as Pre-Centrifugation",
+      "different": "Different from Pre-Centrifugation",
+      "other": "other"
+    },
+    "consistency": {
+      "bristol": {
+        "one": "1 - Very hard and dry",
+        "two": "2 - Firm, but not hard",
+        "three": "3 - Moist, holds form, segmented",
+        "four": "4 - Very moist, loses form, non-segmented",
+        "five": "5 - Very moist, has shape",
+        "six": "6 - Has texture, but no shape",
+        "seven": "7 - Watery, no texture"
+      },
+      "equine": {
+        "dry-with-mucous": "1 - Dry with mucous",
+        "dry-without-mucous": "2 - Dry without mucous",
+        "normal-formed": "3 - Normal formed",
+        "soft-formed": "4 - Soft formed",
+        "cow-pie": "5 - Cow pie",
+        "loose-cow-pie": "6 - Loose (\"dairy\") cow pie",
+        "very-loose": "7 - Very loose fecal matter with high water content (running off)",
+        "profuse-watery": "8 - Profuse watery diarrhea with some fecal matter",
+        "pure-liquid": "9 - Pure liquid, like urine"
+      }
+    },
+    "type": {
+      "equine": {
+        "sugar": "Sugar (Sheather's)",
+        "fecasol": "Sodium Nitrate (Fecasol)",
+        "heavy-sodium-nitrate": "Saturated Sodium Nitrate"
+      }
+    },
+    "storage": {
+      "not-refrigerated": "Never Refrigerated",
+      "refrigerated": "Refrigerated"      
+    },
+    "dilution": {
+      "none": "No dilution",
+      "one-to-two": "1:2",
+      "one-to-five": "1:5",
+      "one-to-eight": "1:8"      
+    },
+    "retrieval-technique": {
+      "free-catch": "Free catch",
+      "traumaticCatheterization": "Traumatic catheterization",
+      "catheterization": "Catheterization",
+      "cystocentesis": "Cystocentesis",
+      "voided": "Voided (Litter Box, Exam Table, etc.)"      
+    },
+    "collection-time": {
+      "greater-than-8-hrs": ">8 hours",
+      "one-to-4-hrs": "1 - 4 hours",
+      "four-to-8-hrs": "4 - 8 hours",
+      "zero-to-30-min": "0 - 30 minutes",
+      "thirty-to-60-min": "30 minutes - 1 hour"      
+    },
+    "clarity": {
+      "flocculent-chunky": "Flocculent/Chunky",
+      "clear": "Clear (Can Read Through It)",
+      "slightly-cloudy": "Slightly Cloudy",
+      "cloudy": "Cloudy",
+      "opaque": "Opaque"      
+    }    
+  },
+  "site": {
+    "location": {
+      "face-ear": "Face/Single Ear",
+      "paw": "Paw",
+      "side": "Side",
+      "chest-back": "Chest/Back",
+      "both-ears": "Both Ears"
+    }
+  },
+  "detection": {
+    "grade": {
+      "yes": "Yes",
+      "no": "No",
+      "none-to-rare": "None to Rare",
+      "one": "1+",
+      "two": "2+",
+      "three": "3+",
+      "none-to-rare-0-5": "None to rare (0-5)",
+      "none-to-rare-0-1": "None to rare (0-1)",
+      "none-to-rare-0-less-1": "None to rare (0- <1)",
+      "few-6-20": "Few (6-20)",
+      "few-2-4": "Few (2-4)",
+      "moderate-21-50": "Moderate (21-50)",
+      "moderate-21-10": "Moderate (21-10)",
+      "moderate-5-10": "Moderate (5-10)",
+      "many-50": "Many (>50)",
+      "many-100": "Many (>100)",
+      "many-10": "Many (>10)"      
+    }
+  }
+}
