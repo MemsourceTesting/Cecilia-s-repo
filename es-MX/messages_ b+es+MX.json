@@ -1,0 +1,908 @@
+{
+  "generic": {
+    "loading": "$$$$$$$...",
+    "yes": "$$$",
+    "no": "$$",
+    "unknown": "$$$$$$$"
+  },
+  "navbar": {
+    "patients": "$$$$$$$$",
+    "tests": "$$$$$",
+    "my-lab": "$$ $$$",
+    "settings": "$$$$$$$$"
+  },
+  "onboarding": {
+    "submit-btn": "$$$$$$$$",
+    "region": {
+      "title": "$$$$$$ $$$$$$$$$",
+      "placeholder": "$$$$$$ $$$$ $$$$$$"
+    },
+    "eula-privacy": {
+      "eula-title": "$$$ $$$$ $$$$$$$ $$$$$$$$$",
+      "privacy-title": "$$$$$$$ $$$$$$",
+      "eula-check": "$ $$$$ $$$$ $$$ $$$$$ $$ $$$ $$$ $$$$ $$$$$$$ $$$$$$$$$",
+      "privacy-check": "$ $$$$ $$$$ $$$ $$$$$ $$ $$$ $$$$$$ $$$$$$$ $$$$$$"
+    },
+    "clinic-form": {
+      "title": "$$$$$$$$ $$$$",
+      "clinic-name": "$$$$$$$$ $$$$",
+      "clinic-street": "$$$$$$$$ $$$$$$ $$$$$$$",
+      "clinic-city": "$$$$",
+      "clinic-state": "$$$$$ $$ $$$$$$$$",
+      "clinic-postal-code": "$$$$$$ $$$$",
+      "clinic-website": "$$$$$$$$ $$$$$$$ $$$$$$$",
+      "phone-number": "$$$$$$$$ $$$$$ $$$$$$",
+      "fields-required-left": "$$$$$$ $$$$$$ $$$$",
+      "fields-required-right": "$$$ $$$$$$$$",
+      "validation": {
+        "practice-name": {
+          "required": "$$$$$$$$ $$$$ $$ $$$$$$$$",
+          "max-length": "$$$$$$$$ $$$$ $$$$ $$ $$ $$$$$$ $$$$ {{$$$}} $$$$$$$$$$"
+        },
+        "practice-street": {
+          "max-length": "$$$$$$$$ $$$$$$ $$$$ $$ $$ $$$$$$ $$$$ {{$$$}} $$$$$$$$$$"
+        },
+        "practice-city": {
+          "max-length": "$$$$ $$$$ $$$$ $$ $$ $$$$$$ $$$$ {{$$$}} $$$$$$$$$$"
+        },
+        "practice-state": {
+          "max-length": "$$$$$ $$ $$$$$$$$ $$$$ $$ $$ $$$$$$ $$$$ {{$$$}} $$$$$$$$$$"
+        },
+        "practice-postal-code": {
+          "max-length": "$$$$$$ $$$$ $$$$ $$ $$ $$$$$$ $$$$ {{$$$}} $$$$$$$$$$"
+        },
+        "practice-website": {
+          "max-length": "$$$$$$$$ $$$$$$$ $$$$$$$ $$$$ $$ $$ $$$$$$ $$$$ {{$$$}} $$$$$$$$$$"
+        },
+        "practice-phone-number": {
+          "max-length": "$$$$$$$$ $$$$$ $$$$$$ $$$$ $$ $$ $$$$$$ $$$$ {{$$$}} $$$$$$$$$$"
+        }
+      }
+    },
+    "date-time": {
+      "title": "$$$$ $$$ $$$$",
+      "24-hr-clock": "24 $$$$ $$$$$",
+      "current-date-time": "$$$$$$$ $$$$ $$$ $$$$",
+      "time-zone": {
+        "label": "$$$$$$ $$$$ $$$$",
+        "placeholder": "$$$$$$ $$$$ $$$$$$$$"
+      }
+    },
+    "setup-complete": {
+      "title": "$$$$$ $$$$$$$$"
+    }
+  },
+  "general-settings": {
+    "title": " $$$$$$$ $$$$$$$$",
+    "tabs": {
+      "about": "$$$$$",
+      "time": "$$$$ &amp; $$$$",
+      "language": "$$$$$$$$",
+      "practice-info": "$$$$$$$$ $$$$$$$$$$$"
+    },
+    "about": {
+      "software-version": "$$$$$$$ $$$$$$$",
+      "ip-address": {
+        "label": "$$$ $$ $$$$$$$",
+        "notconnected": "$$$ $$$$$$$$$"
+      },
+      "serial-number": "$$$$$$ $$$$$$"
+    },
+    "submit-label": "$$$$ $$$$$$$$"
+  },
+  "settings-page": {
+    "tab": {
+      "general": "$$$$$$$ $$$$$$$$",
+      "pims": "$$$$",
+      "devices": "$$$$$$$",
+      "eula": "$$$-$$$$ $$$$$$$ $$$$$$$$$",
+      "privacy-policy": "$$$$$$$ $$$$$$"
+    },
+    "title": "$$$$$$$$"
+  },
+  "pims-settings": {
+    "title": "$$$$ $$$$$$$$",
+    "connect-to-pims": "$$$$$$$ $$$$ $$$$",
+    "is-first-connection": "$$$$$ $$$$ $$$$$$$$$$ $$ $$$$?",
+    "disconnect-from-pims": {
+      "home-button": "$$$$$$$$$$ $$$$ $$$$",
+      "title": "$$$$$$$$$$ $$$$ $$$$",
+      "body-message": "$$$ $$$ $$$$ $$$ $$$$ $$ $$$$$$$$$$ $$$$ $$$$?",
+      "confirmation-button": "$$$, $$$$$$$$$$ $$$$ $$$$",
+      "cancel-button": "$$$$$$"
+    },
+    "generate-transfer-code": "$$$$$$$$ $$$$$$$$ $$$$",
+    "message": "$$$ $$$ $$$$ $$$ $$$$ $$ $$$$$$$$$$ $$$$ $$$$?",
+    "confirmation-button": "$$$, $$$$$$$$$$ $$$$ $$$$",
+    "first-connection.no": "$$, $ $$ $$-$$$$$$$$$$$$ $ $$$$$$$$$$",
+    "first-connection.yes": "$$$, $$$$$ $$$$",
+    "enter-otp.label": "$$$$$ $$$$$$$$ $$$$ / $$$ $$$$ $$$$$$$$ ($$$)",
+    "enter-otp.reconnect": "$$$$$$$$$ $$$$ $$$$ $$$$",
+    "first-time-pims-selection": {
+      "fetching-modal": {
+        "title": "$$$$$$$$ $$$$ $$ $$$$. $$$$$$ $$$$...",
+        "cancel": "$$$$$$"
+      },
+      "fetch-error-modal": {
+        "title": "$$$$$$ $$ $$$$$ $$$$ $$$$",
+        "description": "$$ $$$ $$$$$$$ $$$$$$$$, $$$$$$$ $$$$$$ $$$$$$$.",
+        "ok": "$$"
+      },
+      "error-message": {
+        "red-section": "$$$$$$ $$ $$$$$$$ $$ $$$$. ",
+        "black-section": "$$$$$$ $$$$$ $$$$ $$$$$$$$$$ $$$ $$$ $$$$$. $$ $$$ $$$$$$$ $$$$$$$$, $$$$ $$$$$$ $$$$$$$."
+      },
+      "fetching-list-of-pims": "$$$$$$$$ $$$$ $$ $$$$. $$$$$$ $$$$...",
+      "cancel-fetching": "$$$$$$",
+      "select-your-pims": "$$$$$$ $$$$ $$$$",
+      "no-pims-selected": "$$ $$$$ $$$$$$$$",
+      "connecting": "$$$$$$$$$$ $$$$ $$$$",
+      "connect-with-pims": "$$$$$$$ $$$$ $$$$"
+    },
+    "tab": {
+      "integration": "$$$$ $$$$$$$$$$$",
+      "test-result-settings": "$$$$ $$$$$$ $$$$$$$$"
+    },
+    "modal": {
+      "error.header": "$$$$$$ $$ $$$$$$$$$ $$$$$$$$$$",
+      "error.body": "$$ $$$ $$$$$$$ $$$$$$$$, $$$$$$$ $$$$$$ $$$$$$$.",
+      "successfully-connected": "$$$$$$$$$ $$ $$$$ $$$$$$$$$$$$",
+      "server-mode.connected": "$$$$$$ $$$$ $$$$$$$$$$ $$$$$$$$$$$",
+      "server-mode.body": "$$$$$ $$$$ $$$$$ $$$ $$$$$$$$$$$ $$ $$$$$$$$ $$$ $$$$$$$$$$.",
+      "server-mode.header": "$$$$$ $$$$$$$ $$$$$$ $$ $$$$$$$ $$$$$$$$$$$",
+      "server-mode.error.title": "$$$$$$$$$$$ $$ $$$$$",
+      "ok-btn": "$$"
+    },
+    "connected": {
+      "otp-generator": {
+        "header": "$$$$$$$$ $$$$ $$$$$$$$$$ $$ $ $$$ $$$",
+        "ok-btn": "$$",
+        "expire-warning": "$$$$ $$$$ $$$$$$ $$ 24 $$$$$",
+        "error": {
+          "header": "$$$$$$ $$ $$$$$$$$ $$$ $$$$",
+          "message": "$$ $$$ $$$$$$$ $$$$$$$$, $$$$$$$ $$$$$$ $$$$$$$.",
+          "ok-btn": "$$"
+        }
+      },
+      "transfer-connection": "$$$$$$$$ $$$$ $$$$$$$$$$ $$ $ $$$ $$$",
+      "transfer-button": "$$$$$$$$ $$$$$$$$ $$$$"
+    },
+    "connected-to": "$$$$$$$$$ $$",
+    "client-id": "$$$$$$ $$:",
+    "connecting": "$$$$$$$$$$ $$$$ $$$$ $$$$",
+    "validation": {
+      "otp": {
+        "required": "$$$ $$ $$$$$$$$",
+        "min-length": "$$$ $$$$ $$ 6 $$$$$$$$$$",
+        "matches": "$$$$$$$ $$$"
+      },
+      "email": {
+        "matches": "$$$$$$$$$$ $$$$$$$$$ $$$$$ $$$$$$$."
+      }
+    },
+    "server-mode": "$$$$$$ $$$$ $$$$$$$$$$",
+    "connect": "$$$$$$$",
+    "email.label": "$$$$$ $$$$$$$",
+    "badge": {
+      "header": "$$$$",
+      "connected": "$$$$$$$$$ $$ {{$$$$$$$$}}",
+      "error": "$$$$$$$$$$$$ $$$$ {{$$$$$$$$}}",
+      "disconnected-by-user": "$$$$$$$$$$$$ $$$$ {{$$$$$$$$}}",
+      "not-connected": "$$$ $$$$$$$$$"
+    }
+  },
+  "device-settings": {
+    "title": "$$$$$$ $$$$$$$$",
+    "tab": {
+      "imagyst": "$$$$$$$"
+    },
+    "imagyst": {
+      "badge": {
+        "header": "$$$$$$$",
+        "connected": "$$$$$$$$$ $$ {{$$$$$$$$$$$}}",
+        "error": "$$$$$$$$$$$$ $$$$ {{$$$$$$$$$$$}}",
+        "disconnected-by-user": "$$$ $$$$$$$$$",
+        "not-connected": "$$$ $$$$$$$$$"
+      },
+      "form": {
+        "email": {
+          "label": "$$$$$$$ $$$ $$$$$",
+          "invalid": "$$$$$$$$$$ $$$$$$$$$ $$$$$ $$$$$$$.",
+          "required": "$$$$$ $$ $$$$$$$$"
+        },
+        "password": {
+          "label": "$$$$$$$ $$$ $$$$$$$$",
+          "required": "$$$$$$$$ $$ $$$$$$$$"
+        }
+      },
+      "connect-button": {
+        "connect": "$$$$$$$ $$ $$$$$$$",
+        "connecting": "$$$$$$$$$$ $$ $$$$$$$",
+        "disconnect": "$$$$$$$$$$ $$$$$$$"
+      },
+      "error-modal": {
+        "title": "$$$$$$ $$ $$$$$$$$$ $$$$$$$ $$$$$$$$$$",
+        "invalid-credentials": "$$$$$$$ $$$$$$$$ $$ $$$$$$$$",
+        "unreachable": "$$$$$ $$$ $$$$$$$ $$ $$$$$$$ - $$$$$ $$$$ $$$$$$$$ $$$$$$$$$$ $$ $$$ $$$$$ $$$$$",
+        "unexpected": "$$ $$$$$$$$$$ $$$$$ $$$$$$$, $$$$$$ $$$ $$$$$ $$$$$",
+        "permissions": "$$$$ $$$$$$$ $$$$ $$$ $$$$ $$$ $$$$$$$$ $$$$$$$$$$$ $$ $$$$$$$$$ $ $$$ $$$$$$$$$$.",
+        "body": "$$ $$$ $$$$$$$ $$$$$$$$, $$$$$$$ $$$$$$ $$$$$$$.",
+        "ok": "$$"
+      },
+      "disconnect-modal": {
+        "title": "$$$$$$$$$$ $$$$ $$$$$$$",
+        "body": "$$$ $$$ $$$$ $$$ $$$$ $$ $$$$$$$$$$ $$$$ $$$$$$$?",
+        "confirmation-button": "$$$, $$$$$$$$$$ $$$$ $$$$$$$",
+        "cancel-button": "$$$$$$"
+      }
+    }
+  },
+  "testlist": {
+    "title": "$$$$$ $$$$",
+    "details": "$$$$ $$$$$$",
+    "quick-test-btn": "$$$$$ $$$$",
+    "emergency-patient": "$$$$$$$$$ $$$$$$$",
+    "select-consumables": {
+      "title": "$$$$$$ $$$$($)",
+      "no-analyzer-msg": "$$$$$$ $$$$$$$ $$ $$$$$$$$ $$ $$$ $$$ $$ $$$ $ $$$$.",
+      "submit-btn": "$$$$ $$$$"
+    },
+    "select-patient": {
+      "name": "$$$$",
+      "patient-id": "$$$$$$$ $$",
+      "species": "$$$$$$$",
+      "breed": "$$$$$",
+      "selected": "$$$$$$$ $$$$$$$$",
+      "not-selected": "$$$$$$ $$$$$$$",
+      "title": "$$$$$$ $$$$$$$",
+      "emergency-test": "$$$$$$$$$ $$$$",
+      "submit-btn": "$$$$ $$$$"
+    },
+    "order-summary": {
+      "title": "$$$$$ $$$$$$$",
+      "default-msg": "$$$$$$$ $$$$$$$ ($$ $$ $$$$$$$$$$$)",
+      "submit-btn": "$$$$$$ $$$$$"
+    },
+    "patient-info": {
+      "title": "$$$$$$$ $$$$$$$$$$$",
+      "quick-test": "$$$$$$$$$",
+      "no-patient": "$$ $$$$$$$ $$$$$$$$"
+    },
+    "test-wizard": {
+      "title": "$$$$$$ $$$$$",
+      "step": "$$$$ {{$$$$}} $$ 3"
+    },
+    "tabs": {
+      "all-tests": "$$$ $$$$$",
+      "worklist": "$$$$$$$$",
+      "completed": "$$$$$$$$$ $$$$$",
+      "columns": {
+        "patient": "$$$$$$$",
+        "test": "$$$$",
+        "platform": "$$$$$$$$",
+        "device": "$$$$$$",
+        "species": "$$$$$$$",
+        "status": "$$$$$$",
+        "progress": "$$$$$$$$",
+        "view-details": "$$$$ $$$$$$$",
+        "start-test": "$$$$$ $$$$"
+      },
+      "status-btn": {
+        "all-tests": "$$$ $$$$$",
+        "pending": "$$$$$$$",
+        "ready": "$$$$$",
+        "running": "$$$$$$$",
+        "results": "$$$$$$$",
+        "error": "$$$$$"
+      }
+    }
+  },
+  "patients": {
+    "title": "$$$$$$$$",
+    "search-placeholder": "$$$$$$ $$$$$$$ $$ $$ $$$$",
+    "view-owner-list": "$$$$ $$$$$$ $$$$",
+    "add-patient": "$$$ $$$$$$$",
+    "no-result": "$$ $$$$$$$ $$ $$$$$$$",
+    "all-species": "$$$ $$$$$$$",
+    "species-list": "{{$$$$$$$}}",
+    "gender": "{{$$$$$$}}",
+    "group": "{{$$$$$}}",
+    "details": {
+      "title": "$$$$$$$ $$$$$$$"
+    },
+    "patients-add": {
+      "header": "$$$ $$$ $$$$$$$",
+      "fields-required-left": "$$$$$$ $$$$$$ $$$$",
+      "fields-required-right": "$$$ $$$$$$$$",
+      "patient-id": "$$$$$$$ $$",
+      "patient-name": "$$$$$$$ $$$$",
+      "species": "$$$$$$$",
+      "breed": "$$$$$",
+      "birthdate": "$$$$$$$$$",
+      "sex": "$$$",
+      "notes": "$$$$$",
+      "submit-label": "$$$ $$$$$$$",
+      "placeholder": {
+        "species": "$$$$$$ $$$$$$$",
+        "sex": "$$$$$$ $$$"
+      },
+      "validation": {
+        "patient-id": {
+          "required": "$$$$$$$ $$ $$ $$$$$$$$",
+          "max-length": "$$$$$$$ $$ $$$$ $$ $$ $$$$$$ $$$$ 14 $$$$$$$$$$"
+        },
+        "patient-name": {
+          "required": "$$$$$$$ $$$$ $$ $$$$$$$$",
+          "max-length": "$$$$$$$ $$$$ $$$$ $$ $$ $$$$$$ $$$$ 255 $$$$$$$$$$"
+        },
+        "breed": "$$$$$$$ $$$$$ $$$$ $$ $$ $$$$$$ $$$$ 255 $$$$$$$$$$",
+        "species": "$$$$$$$ $$$$$$$$$ $$ $$$$$$$$",
+        "gender": "$$$ $$$$$$$$$ $$ $$$$$$$$",
+        "birthdate": "$$$$$$$ $$$$ $$ $$$ $$$$$"
+      }
+    },
+    "patient-edit": {
+      "edit-patient": "$$$$ $$$$$$$",
+      "fields-required-left": "$$$$$$ $$$$$$ $$$$",
+      "fields-required-right": "$$$ $$$$$$$$",
+      "update-patient": "$$$$$$ $$$$$$$",
+      "label": {
+        "species": "$$$$$$$",
+        "breed": "$$$$$",
+        "sex": "$$$",
+        "owner": "$$$$$",
+        "birthdate": "$$$$$$$$$"
+      }
+    },
+    "tabs": {
+      "all-patients": "$$$ $$$$$$$$",
+      "current-tests": "$$$$$$$ $$$$$$",
+      "test-history": "$$$$ $$$$$$$"
+    },
+    "tab-columns": {
+      "test": "$$$$",
+      "platform": "$$$$$$$$",
+      "device": "$$$$$$",
+      "status": "$$$$$$",
+      "progress": "$$$$$$$$"
+    },
+    "tab-no-result": "$$ $$$$$$$ $$ $$$$$$$"
+  },
+  "owners": {
+    "title": "$$$$$$",
+    "search-placeholder": "$$$$$$ $$$$$ $$ $$ $$$$$ $$$$",
+    "assigned-patients": "$$$$$$$$ $$$$$$$$",
+    "manage-assigned-patients": "$$$$$$ $$$$$$$$ $$$$$$$$",
+    "add": {
+      "title": "$$$ $$$ $$$$$",
+      "fields-required-left": "$$$$$$ $$$$$$ $$$$",
+      "fields-required-right": "$$$ $$$$$$$$",
+      "submit": "$$$ $$$$$"
+    },
+    "edit": {
+      "edit-owner": "$$$$ $$$$$",
+      "update-owner": "$$$$$$ $$$$$"
+    },
+    "details": {
+      "title": "$$$$$$ $$$$$$",
+      "phone": "$$$$$"
+    },
+    "assign": {
+      "title": "$$$$$$ $$$$$$$"
+    },
+    "validation": {
+      "first-name": {
+        "required": "$$$$$ $$$$$ $$$$ $$ $$$$$$$$",
+        "max-length": "$$$$$ $$$$$ $$$$ $$$$ $$ $$ $$$$$$ $$$$ {{$$$}} $$$$$$$$$$"
+      },
+      "last-name": {
+        "required": "$$$$$ $$$$ $$$$ $$ $$$$$$$$",
+        "max-length": "$$$$$ $$$$ $$$$ $$$$ $$ $$ $$$$$$ $$$$ {{$$$}} $$$$$$$$$$"
+      },
+      "owner-id": "$$$$$ $$ $$$$ $$ $$ $$$$$$ $$$$ {{$$$}} $$$$$$$$$$",
+      "email": "$$$$$ $$$$$ $$$$ $$ $$ $$$$$$ $$$$ {{$$$}} $$$$$$$$$$",
+      "phone": "$$$$$ $$$$$ $$$$ $$ $$ $$$$$$ $$$$ {{$$$}} $$$$$$$$$$"
+    },
+    "headers": {
+      "last-name": "$$$$ $$$$",
+      "first-name": "$$$$$ $$$$",
+      "owner-id": "$$$$$ $$",
+      "phone-number": "$$$$$ $$$$$$",
+      "address": "$$$$$$$",
+      "email": "$$$$$",
+      "view-details": "$$$$ $$$$$$$"
+    },
+    "tab-columns": {
+      "patient-name": "$$$$$$$ $$$$",
+      "patient-id": "$$$$$$$ $$",
+      "species": "$$$$$$$",
+      "breed": "$$$$$",
+      "assign-patient": "$$$$$$ $$$$$$$",
+      "patient-assigned": "$$$$$$$ $$$$$$$$"
+    }
+  },
+  "my-lab": {
+    "title": "$$ $$$",
+    "systems-header": "$$$$$$$",
+    "no-devices-msg": "$$ $$$$$$$ $$$$$$$$$",
+    "instrument": {
+      "platform": " {{$$$$$$$$}} $$$$$$$",
+      "type": "{{$$$$}}",
+      "status": "{{$$$$$$}}",
+      "card": {
+        "SN": "$$"
+      },
+      "details": {
+        "title": "$$$$$$ $$$$$$$$$$$",
+        "device-type": "{{$$$$$$$$}} $$$$$$",
+        "btn-type": "{{$$$$$$}} $$$$$$",
+        "status": "$$$$$$",
+        "serial-no": "$$$$$$ $$$$$$",
+        "software": "$$$$$$$$",
+        "connection-type": "$$$$$$$$ $$$$$$$$$$ $$$$",
+        "last-transmission": "$$$$ $$$$$$$$$$$$",
+        "device-date-time": "$$$$$$ $$$$ $$$$",
+        "mobile-os": "$$$$$$ $$",
+        "mobile-user": "$$$$",
+        "edit-device": "$$$$ $$$$$$",
+        "shutdown": "$$$$ $$$$",
+        "identify": "$$$$$$$$",
+        "power-on": "$$$$$ $$",
+        "quality-control": "$$$$$$ $$$$$$$ $$$$$$$ $$$$",
+        "test-tabs": {
+          "current-tests": "$$$$$$$ $$$$$",
+          "test-history": "$$$$ $$$$$$$"
+        },
+        "modal": {
+          "error-header": "$$ $$$$$ $$$ $$$$$$$$",
+          "error-msg": "$$$$$$ $$$ $$$$$$ $$ {{$$$$$}}",
+          "action-msg": "$$$ $$$ $$$$ $$$ $$$$ $$ {{$$$$$}} $$$$ $$$$$$?",
+          "ok-btn": "$$",
+          "cancel-btn": "$$$$$$"
+        },
+        "edit": {
+          "serialNumber": "{{$$$$$$$$$$$$}}",
+          "unpair-msg": "$$ $$$ $$$$$$ $$$ $$$$$$ $$$ $$$$ $$$ $$$ $$$ $$$$$$ $$$$$ $$$$$ $$ $$ $$$$$$$$$$$ $$ $$$ $$$.",
+          "unpair-device": "$$$$$$ $$$$$$",
+          "modal": {
+            "msg": "$$$$$$ $$$$$$ $$$ $$$$$$$$$$ $$$$$$ $$$$ $$$ $$$$$$$ $$$$$$ $$$$$$$$$.",
+            "confirmation-msg": "$$ $$$ $$$$ $$ $$$$$$$$ $$$$ $$$$$$$$$ $$$$ $$$$$$?",
+            "btn": {
+              "yes": "$$$",
+              "no": "$$"
+            }
+          }
+        }
+      }
+    }
+  },
+  "measurement": {
+    "cancel-btn": "$$$$$$ $$$$",
+    "test-date": "$$$$ $$$$",
+    "warning-result": {
+      "title": "$$$$$$$ $$$$",
+      "warning-flag": "{{$$$$$$$}}"
+    },
+    "status": {
+      "pending": "$$$$$$$",
+      "submitted": "$$$$$$$",
+      "accepted": "$$$$$$$",
+      "ready": "$$$$$",
+      "running": "$$$$$$$",
+      "complete": "$$$$$$$$",
+      "error": "$$$$$",
+      "cancel": "$$$$$$$$$"
+    },
+    "details": {
+      "status": {
+        "pending": "$$$$$$$",
+        "submitted": "$$$$$$$",
+        "accepted": "$$$$$$$",
+        "ready": "$$$$$",
+        "running": "$$$$$$$",
+        "complete": "$$$$$$$ $$$$$$$$$",
+        "error": "$$$$ $$$$$",
+        "cancel": "$$$$$$$$$"
+      },
+      "actions": {
+        "resend-to-pims": "$$$$$$ $$ $$$$"
+      }
+    },
+    "modal": {
+      "cancel-header": "$$$$$$ $$$$",
+      "cancel-msg": "$$$ $$$ $$$$ $$$ $$$$ $$ $$$$$$ $$$$ $$$$?",
+      "ok-btn": "$$$, $$$$$$ $$$$",
+      "not-ok-btn": "$$, $$$$$$ $$$$"
+    },
+    "results": {
+      "serialNumber": {
+        "standard": "{{$$$$$$$$}} - {{$$$$$$$$$$$$}}",
+        "imagyst": "$$$$$$$ - {{$$$$$$$$$$$}}"
+      },
+      "result-columns": {
+        "test": "$$$$",
+        "graph": "$$$$$",
+        "result": "$$$$$$",
+        "unit": "$$$$",
+        "reference": "$$$$$$$$$"
+      }
+    }
+  },
+  "management": {
+    "title": "$$$$$$$$$$",
+    "clear-instruments": "$$$$$ $$$$$$$$$$$",
+    "clear-tests": "$$$$$ $$$$$",
+    "clear-tests-instruments": "$$$$$ $$$$$ $$$ $$$$$$$$$$$",
+    "clear-onboarding": "$$$$$ $$$$$$$$$$ $$$$$$ &amp; $$$$"
+  },
+  "prompts": {
+    "apply-sample": {
+      "title": "$$$$$ $$$$$$",
+      "msg": "$$$$$$ $$$$$$ $$$$ $$$$$$ $$$ $$$$ $$$$$$$$ $$ $ $$$$$$$ $$$$ $$$$."
+    },
+    "cartridge-code": {
+      "title": "$$$$$$$$$ $$$$ $$$$$$"
+    },
+    "disconnected": {
+      "description": "$$$$$$$$$$ $$$$... $$$$$$$$$$ $$$$$$$$$"
+    },
+    "histogram": {
+      "title": "{{$$$$}} $$$$$$$$$"
+    },
+    "insert-cartridge": "$$$$$$ $$$$$$$$$ $$$$ $$$$$$$$ $$$$$$",
+    "ltf-binary-result-columns": {
+      "test-type": "$$$$ $$$$",
+      "result": "$$$$$$",
+      "error-desc": "$$$$$ $$$$$$$$$$$",
+      "error": "$$$$ $$$$$$$$$ $$ $$$$$"
+    },
+    "ltf-cpl-result-columns": {
+      "test-type": "$$$$ $$$$",
+      "concentration": "$$$$$$$$$$$$$",
+      "ref-range": "$$$$$$$$$ $$$$$",
+      "result": "$$$$$$"
+    },
+    "insert-sample": {
+      "timed-scan": {
+        "apply-sample-1": "$$$$$ $$$$$$ $$$ $$$$$$",
+        "apply-sample-2": "$$ $$$$$$$$",
+        "insert-consumable-1": "$$$$ $$$$$$ $$$ $$$$$$",
+        "insert-consumable-2": "$$$$$$$$ $$$$ $$$$$$",
+        "close-drawer-1": "$$$$$ $$$$$$ $$ $$$$$$",
+        "close-drawer-2": "$$ $$$$ $$$$$$$$"
+      },
+      "quick-scan": {
+        "insert-consumable-1": "$$$$ $$$$$$ $$$ $$$$$$",
+        "insert-consumable-2": "$$$$$$$$$$$ $$$$ $$$$$$",
+        "close-drawer-1": "$$$$$ $$$$$$ $$ $$$$$$",
+        "close-drawer-2": "$$ $$$$ $$$$$$$$"
+      },
+      "hmx": {
+        "apply-sample-1": "$$$$$ $$$$$$",
+        "apply-sample-2": "$$ $$$$$$$",
+        "insert-sampler-1": "$$$$$$ $$$$$$$ $$$$",
+        "insert-sampler-2": "$$$$$$$$$",
+        "insert-consumable-1": "$$$$$$ $$$$$$$$$ $$$$",
+        "insert-consumable-2": "$$$$$$",
+        "qc": "$$$$$$ $$$$$$$ $$$$$$$$$ $$$$ $$$$$$"
+      }
+    },
+    "ltf-scan-type": {
+      "timed-scan-btn": "$$$$$ $$$$",
+      "quick-scan-btn": "$$$$$ $$$$"
+    },
+    "measurement-cancelled": {
+      "title": "$$$$ $$$$$$$$$ $$ $$$$"
+    },
+    "measurement-error": {
+      "title": "{{$$$$$}}",
+      "description": "{{$$$$$$$$$$$}}",
+      "timestamp": "{{$$$$$$$$$}}"
+    },
+    "pending": {
+      "accepted": "$$$$ $$$$$ $$ $$$$$$$ $$ {{$$$$$$$$$$$$}}.",
+      "no-device": "$$$$ $$$$$ $$$$$$$, $$ $$$$$$ $$$$$$$$.",
+      "general-worklist": "$$$$ $$$$$ $$ $$$$$$$ $$ $$$$$$$ $$$$$$$$",
+      "on-imagyst": "$$$$$$$ $$ $$$$$$$ $$$$$$$$"
+    },
+    "submitted": "$$$$ $$$$$ $$ $$$$$$$ $$ $$ $$$$ $$ {{$$$$$$$$$$$$}}.",
+    "prepare-sample": {
+      "title": "$$$$$$$ $$$$$$ $$$$$ $$$$$$$$$ $$$$$",
+      "msg-1": "$$$$$$ $$$$$$ $$$$ $$$$$$ $$$ $$$$ $$$$$$$$ $$ $ $$$$$$$ $$$$ $$$$.",
+      "msg-2": "$$ $$$ $$$$$ $$$$$$$$ $$$$$$ $$$$$ $$$$$$$$."
+    },
+    "progress": {
+      "description": "{{$$$$$$$$$$$}}"
+    },
+    "species": "$$$$$$ $$$$$$$$$ $$$$$$$ $$$$$$$.",
+    "tabs": {
+      "title": "{{$$$$$}}",
+      "result": "$$$$$$",
+      "images": "$$$$$$"
+    },
+    "text-result": {
+      "columns": {
+        "test": "$$$$",
+        "result": "$$$$$$"
+      }
+    },
+    "pass-fail-result": {
+      "columns": {
+        "test": "$$$$",
+        "result": "$$$$$$"
+      }
+    },
+    "timed-progress": {
+      "description": "{{$$$$$$$$$$$}}",
+      "time-remaining": "$$$$ $$$$$$$$$:",
+      "total-time": "$$$$$ $$$$:"
+    },
+    "vs3-insert": {
+      "add-sample": "$$$ $$$$$$",
+      "place-rotor": "$$$$$ $$$$$ $$ $$$$ $$$$$$",
+      "close-drawer": "$$$$$ $$$$$$ $$$ $$$$$$$$"
+    },
+    "img-result": {
+      "columns": {
+        "detection": "$$$$$$$",
+        "count": "$$$$$",
+        "images": "$$$$$$",
+        "presence": "$$$$$$$$",
+        "blood-cells": "$$$$$ $$$$$",
+        "bacteria": "$$$$$$$$",
+        "crystal": "$$$$$$$$",
+        "casts": "$$$$$",
+        "epithelial-cells": "$$$$$$$$$$ $$$$$",
+        "semi-quant-hpf": "$$$$-$$$$$ ($$$ $$$)",
+        "semi-quant-lpf": "$$$$-$$$$$ ($$$ $$$)"
+      }
+    },
+    "img-fecal-result-columns": {
+      "epg": "$$$"
+    },
+    "img-dermatology-result-columns": {
+      "bacteria-yeast": "$$$$$$$$ &amp; $$$$$",
+      "white-blood-cells": "$$$$$$$$$$$$ $$$"
+    },
+    "img-bloodsmear-result-columns": {
+      "detection": "$$$$$$$",
+      "graph": "$$$$$",
+      "count": "$$$$$$$",
+      "unit": "$$$$"
+    },
+    "submit-btn": "$$$$$$"
+  },
+  "components": {
+    "back-btn": "$$$$",
+    "platform": "{{$$$$$$$$}}",
+    "dropdown-filter": {
+      "filter-by": "$$$$$$ $$",
+      "label": "{{$$$$$}}",
+      "options": "{{$$$$$$$}}"
+    },
+    "patient-card": {
+      "name": "{{$$$$}}",
+      "clinic-id": "{{$$$$$$$$}}",
+      "species": "{{$$$$$$$}}",
+      "breed": "{{$$$$$}}"
+    }
+  },
+  "analytes": {
+    "rapid": {
+      "chw": "$$$$$$$$$",
+      "ehr": "$$$$$$$$$",
+      "par": "$$$$$",
+      "gia": "$$$$$$$",
+      "lym": "$$$$",
+      "cpl": "$$$$$$ $$$$$$$$$$ $$$$$$",
+      "fiv": "$$$$$$ $$$$$$$$$$$$$$$$ $$$$$",
+      "fel": "$$$$$$ $$$$$$$$ $$$$$",
+      "ana": "$$$$$$$$$"
+    },
+    "imagyst": {
+      "ancy": "$$$$$$$$$$$ ($$$$$$$$)",
+      "coc": "$$$$$$$$$$$$$ ($$$$$$$$)",
+      "gia": "$$$$$$$",
+      "tae": "$$$$$$ ($$$$$$$$)",
+      "tox": "$$$$$$$$ ($$$$$$$$$)",
+      "tri": "$$$$$$$$$ ($$$$$$$$)",
+      "para": "$$$$$$$$$$ ($$$$$$$$$)",
+      "stro": "$$$$$$$$$$",
+      "bacteria": "$$$$$$$$",
+      "yeast": "$$$$$",
+      "derm-wbc": "$$$$$ $$$$$ $$$$$",
+      "derm-rods": "$$$$",
+      "derm-cocci": "$$$$$",
+      "derm-neutrophil-normal": "$$$$$$$$$$$",
+      "derm-neutrophil-bacteria": "$$$$$$$$$$$ ($$$$$$$$$$ $$$$$$$$)",
+      "derm-macrophage": "$$$$$$$$$$$",
+      "derm-lymphocyte": "$$$$$$$$$$$",
+      "derm-eosinophil": "$$$$$$$$$$$",
+      "derm-malassezia": "$$$$$$$$$$",
+      "ewbc": "$$$$$$$$$ $$$ $$$$$",
+      "neu": "$$$$$$$$$$",
+      "lym": "$$$$$$$$$$",
+      "mon": "$$$$$$$$",
+      "eos": "$$$$$$$$$$",
+      "bas": "$$$$$$$$",
+      "wbc%": "$$$ $$$$$$$",
+      "neu%": "$$$$$$$$$$ (%)",
+      "lym%": "$$$$$$$$$$ (%)",
+      "mon%": "$$$$$$$$ (%)",
+      "eos%": "$$$$$$$$$$ (%)",
+      "bas%": "$$$$$$$$ (%)",
+      "erbc": "$$$ $$$$$ $$$$",
+      "rbc": "$$$$$$$$$ $$$",
+      "pol": "$$$$$$$$$$$$$$$$$$",
+      "plt": "$$$$$$$$$ $$$$$$$$ $$$$$",
+      "lplt": "$$$$$ $$$$$$$$$$ $$$$$$$$",
+      "mplt": "$$$$$$ $$$$$$$$$$ $$$$$$$$",
+      "bneu": "$$$$ $$$$$$$$$$",
+      "bneu%": "$$$$ $$$$$$$$$$ (%)",
+      "sneu": "$$$$$$$$$ $$$$$$$$$$",
+      "sneu%": "$$$$$$$$$ $$$$$$$$$$ (%)",
+      "aca": "$$$$$$$$$$$",
+      "ecc": "$$$$$$$$$$$$",
+      "ech": "$$$$$$$$$$",
+      "ker": "$$$$$$$$$$",
+      "sch": "$$$$$$$$$$$",
+      "aplt": "$$$$$$$$$$ $$$$$$$$",
+      "dobd": "$$$$$ $$$$",
+      "u-wbc": "$$$$",
+      "u-rbc": "$$$$",
+      "u-coc": "$$$$$",
+      "u-coc-cl": "$$$$$ $$$$$$$$ &amp; $$$$$$",
+      "u-rod": "$$$$",
+      "u-rod-cl": "$$$$ $$$$$$$$ &amp; $$$$$$",
+      "u-hyac": "$$$$$$$ $$$$",
+      "u-nhyac": "$$$-$$$$$$$ $$$$",
+      "u-str": "$$$$$$$$",
+      "u-cal": "$$$$$$$ $$$$$$$ $$$$$$$$$",
+      "u-squ": "$$$$$$$$ $$$$$$$$$$ $$$$$",
+      "u-oepi": "$$$$$ $$$$$$$$$$ $$$$$",
+      "u-epi-cl": "$$$$$$$$$$ $$$$ $$$$$$$"
+    }
+  },
+  "sample": {
+    "info": {
+      "fec-color": "$$$$$",
+      "fec-consist": "$$$$$$$$$$$",
+      "fec-comm": "$$$$$",
+      "eqf-consist": "$$$$$$$$$$$",
+      "sol": "$$$$$$$$",
+      "blood-presence": "$$$$$ $$$$$$$$",
+      "site-location": "$$$$ $$$$$$$$",
+      "notes-bld": "$$$$$$$",
+      "u-retrieval": "$$$$$ $$$$$$$$$ $$$$$$$$$",
+      "u-clarity": "$$$$$$$",
+      "u-vol": "$$$$$ $$$$$$",
+      "u-ph": "$$",
+      "u-color": "$$$$$ $$$$$$ $$$$$$$$$$$$$$",
+      "u-hematuric": "$$$$$ $$$$$ $$$$$$$$$$$$$$",
+      "u-dilution-fac": "$$$$$$$$ $$$$$$",
+      "u-time": "$$$$$$$ $$$$",
+      "u-storage": "$$$$$$$ $$$$$$$$$",
+      "u-usg": "$$$"
+    },
+    "color": {
+      "brown": "$$$$$",
+      "light-brown": "$$$$$ $$$$$",
+      "black": "$$$$$",
+      "green": "$$$$$",
+      "light-green": "$$$$$ $$$$$",
+      "yellow": "$$$$$$",
+      "yellow-with-mucus": "$$$$$$ $$$$ $$$$$",
+      "orange": "$$$$$$",
+      "yellow-orange": "$$$$$$ $$$$$$",
+      "gray": "$$$$",
+      "pink-purple": "$$$$ / $$$$$$",
+      "bloody": "$$$$$$ / $$$ $$$$$$$$",
+      "colorless": "$$$$$$$$$",
+      "light-red": "$$$$$ $$$",
+      "red": "$$$",
+      "pink": "$$$$",
+      "light-orange": "$$$$$ $$$$$$",
+      "dark-orange": "$$$$ $$$$$$",
+      "light-yellow": "$$$$$ $$$$$$",
+      "light-medium-yellow": "$$$$$ $$ $$$$$$ $$$$$$",
+      "dark-yellow": "$$$$ $$$$$$",
+      "straw": "$$$$$",
+      "light-straw": "$$$$$ $$$$$",
+      "white": "$$$$$",
+      "green-tint": "$$$$$ $$$$",
+      "same": "$$$$ $$ $$$-$$$$$$$$$$$$$$",
+      "different": "$$$$$$$$$ $$$$ $$$-$$$$$$$$$$$$$$",
+      "other": "$$$$$"
+    },
+    "consistency": {
+      "bristol": {
+        "one": "1 - $$$$ $$$$ $$$ $$$",
+        "two": "2 - $$$$, $$$ $$$ $$$$",
+        "three": "3 - $$$$$, $$$$$ $$$$, $$$$$$$$$",
+        "four": "4 - $$$$ $$$$$, $$$$$ $$$$, $$$-$$$$$$$$$",
+        "five": "5 - $$$$ $$$$$, $$$ $$$$$",
+        "six": "6 - $$$ $$$$$$$, $$$ $$ $$$$$",
+        "seven": "7 - $$$$$$, $$ $$$$$$$"
+      },
+      "equine": {
+        "dry-with-mucous": "1 - $$$ $$$$ $$$$$$",
+        "dry-without-mucous": "2 - $$$ $$$$$$$ $$$$$$",
+        "normal-formed": "3 - $$$$$$ $$$$$$",
+        "soft-formed": "4 - $$$$ $$$$$$",
+        "cow-pie": "5 - $$$ $$$",
+        "loose-cow-pie": "6 - $$$$$ (\"$$$$$\") $$$ $$$",
+        "very-loose": "7 - $$$$ $$$$$ $$$$$ $$$$$$ $$$$ $$$$ $$$$$ $$$$$$$ ($$$$$$$ $$$)",
+        "profuse-watery": "8 - $$$$$$$ $$$$$$ $$$$$$$$ $$$$ $$$$ $$$$$ $$$$$$",
+        "pure-liquid": "9 - $$$$ $$$$$$, $$$$ $$$$$"
+      }
+    },
+    "type": {
+      "equine": {
+        "sugar": "$$$$$ ($$$$$$$$'$)",
+        "fecasol": "$$$$$$ $$$$$$$ ($$$$$$$)",
+        "heavy-sodium-nitrate": "$$$$$$$$$ $$$$$$ $$$$$$$"
+      }
+    },
+    "storage": {
+      "not-refrigerated": "$$$$$ $$$$$$$$$$$$",
+      "refrigerated": "$$$$$$$$$$$$"      
+    },
+    "dilution": {
+      "none": "$$ $$$$$$$$",
+      "one-to-two": "1:2",
+      "one-to-five": "1:5",
+      "one-to-eight": "1:8"      
+    },
+    "retrieval-technique": {
+      "free-catch": "$$$$ $$$$$",
+      "traumaticCatheterization": "$$$$$$$$$ $$$$$$$$$$$$$$$",
+      "catheterization": "$$$$$$$$$$$$$$$",
+      "cystocentesis": "$$$$$$$$$$$$$",
+      "voided": "$$$$$$ ($$$$$$ $$$, $$$$ $$$$$, $$$.)"      
+    },
+    "collection-time": {
+      "greater-than-8-hrs": ">8 $$$$$",
+      "one-to-4-hrs": "1 - 4 $$$$$",
+      "four-to-8-hrs": "4 - 8 $$$$$",
+      "zero-to-30-min": "0 - 30 $$$$$$$",
+      "thirty-to-60-min": "30 $$$$$$$ - 1 $$$$"      
+    },
+    "clarity": {
+      "flocculent-chunky": "$$$$$$$$$$/$$$$$$",
+      "clear": "$$$$$ ($$$ $$$$ $$$$$$$ $$)",
+      "slightly-cloudy": "$$$$$$$$ $$$$$$",
+      "cloudy": "$$$$$$",
+      "opaque": "$$$$$$"      
+    }    
+  },
+  "site": {
+    "location": {
+      "face-ear": "$$$$/$$$$$$ $$$",
+      "paw": "$$$",
+      "side": "$$$$",
+      "chest-back": "$$$$$/$$$$",
+      "both-ears": "$$$$ $$$$"
+    }
+  },
+  "detection": {
+    "grade": {
+      "yes": "$$$",
+      "no": "$$",
+      "none-to-rare": "$$$$ $$ $$$$",
+      "one": "1+",
+      "two": "2+",
+      "three": "3+",
+      "none-to-rare-0-5": "$$$$ $$ $$$$ (0-5)",
+      "none-to-rare-0-1": "$$$$ $$ $$$$ (0-1)",
+      "none-to-rare-0-less-1": "$$$$ $$ $$$$ (0- &lt;1)",
+      "few-6-20": "$$$ (6-20)",
+      "few-2-4": "$$$ (2-4)",
+      "moderate-21-50": "$$$$$$$$ (21-50)",
+      "moderate-21-10": "$$$$$$$$ (21-10)",
+      "moderate-5-10": "$$$$$$$$ (5-10)",
+      "many-50": "$$$$ (>50)",
+      "many-100": "$$$$ (>100)",
+      "many-10": "$$$$ (>10)"      
+    }
+  }
+}
