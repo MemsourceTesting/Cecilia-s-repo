@@ -1,0 +1,908 @@
+{
+  "generic": {
+    "loading": "aaaaaaaaaa",
+    "yes": "aaa",
+    "no": "aa",
+    "unknown": "aaaaaaa"
+  },
+  "navbar": {
+    "patients": "aaaaaaaa",
+    "tests": "aaaaa",
+    "my-lab": "aaaaaa",
+    "settings": "aaaaaaaa"
+  },
+  "onboarding": {
+    "submit-btn": "aaaaaaaa",
+    "region": {
+      "title": "aaaaaaaaaaaaaaaa",
+      "placeholder": "aaaaaaaaaaaaaaaaaa"
+    },
+    "eula-privacy": {
+      "eula-title": "aaaaaaaaaaaaaaaaaaaaa aaaa",
+      "privacy-title": "aaaaaaaaaaaaaa",
+      "eula-check": "aaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaa",
+      "privacy-check": "aaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaa"
+    },
+    "clinic-form": {
+      "title": "aaaaaaaaaaaaa",
+      "clinic-name": "aaaaaaaaaaaaa",
+      "clinic-street": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "clinic-city": "aaaa",
+      "clinic-state": "aaaaaaaaaaaaaaaaa",
+      "clinic-postal-code": "aaaaaaaaaaa",
+      "clinic-website": "aaaaaaaaaaaaaaaaaaaaaaaa",
+      "phone-number": "aaaaaaaaaaaaaaaaaaaaa",
+      "fields-required-left": "aaaaaaaaaaaaaaaaaa",
+      "fields-required-right": "aaaaaaaaaaaa",
+      "validation": {
+        "practice-name": {
+          "required": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+          "max-length": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "practice-street": {
+          "max-length": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa "
+        },
+        "practice-city": {
+          "max-length": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "practice-state": {
+          "max-length": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaaaaaa"
+        },
+        "practice-postal-code": {
+          "max-length": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaa"
+        },
+        "practice-website": {
+          "max-length": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaa"
+        },
+        "practice-phone-number": {
+          "max-length": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaa"
+        }
+      }
+    },
+    "date-time": {
+      "title": "aaaaaaaaaaaaa",
+      "24-hr-clock": "24 aaaaaaaaaa",
+      "current-date-time": "aaaaaaaaaaaaaaaaaaaaa",
+      "time-zone": {
+        "label": "aaaaaaaaaaaaaaaa",
+        "placeholder": "aaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    "setup-complete": {
+      "title": "aaaaaaaaaaaaaa"
+    }
+  },
+  "general-settings": {
+    "title": " aaaaaaaaaaaaaaaa",
+    "tabs": {
+      "about": "aaaaa",
+      "time": "aaaaaaaaaaa",
+      "language": "aaaaaaaa",
+      "practice-info": "aaaaaaaaaaaaaaaaaaaa"
+    },
+    "about": {
+      "software-version": "aaaaaaaaaaaaaaa",
+      "ip-address": {
+        "label": "aaaaaaaaaaaaaa",
+        "notconnected": "aaaaaaaaaaaaa"
+      },
+      "serial-number": "aaaaaaaaaaaaa"
+    },
+    "submit-label": "aaaaaaaaaaaaa"
+  },
+  "settings-page": {
+    "tab": {
+      "general": "aaaaaaaaaaaaaaaa",
+      "pims": "aaaa",
+      "devices": "aaaaaaa",
+      "eula": "aaaaaaaaaaaaaaaaaaaaa-aaaa",
+      "privacy-policy": "aaaaaaaaaaaaaa"
+    },
+    "title": "aaaaaaaa"
+  },
+  "pims-settings": {
+    "title": "aaaaaaaaaaaaa",
+    "connect-to-pims": "aaaaaaaaaaaaaaaaa",
+    "is-first-connection": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "disconnect-from-pims": {
+      "home-button": "aaaaaaaaaaaaaaaaaaaa",
+      "title": "aaaaaaaaaaaaaaaaaaaa",
+      "body-message": "aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aa",
+      "confirmation-button": "aaaaaaaaaaaaaaaaaaaaa, aa",
+      "cancel-button": "aaaaaa"
+    },
+    "generate-transfer-code": "aaaaaaaaaaaaaaaaaaaaaa",
+    "message": "aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aa",
+    "confirmation-button": "aaaaaaaaaaaaaaaaaaaaa, aa",
+    "first-connection.no": "aaaaaaaaaaaaaa, aaaaaaa aaaaaaaaaaaaa",
+    "first-connection.yes": "aaaaaaaaaaaaaaa",
+    "enter-otp.label": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaa",
+    "enter-otp.reconnect": "aaaaaaaaaaaaaaaaaaaaaaaa",
+    "first-time-pims-selection": {
+      "fetching-modal": {
+        "title": "aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa",
+        "cancel": "aaaaaa"
+      },
+      "fetch-error-modal": {
+        "title": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+        "description": "aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaa",
+        "ok": "aa"
+      },
+      "error-message": {
+        "red-section": "aaaaaaaaaaaaaaaaaaaaaaaaaa ",
+        "black-section": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaa"
+      },
+      "fetching-list-of-pims": "aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa",
+      "cancel-fetching": "aaaaaa",
+      "select-your-pims": "aaaaaaaaaaaaaaaa",
+      "no-pims-selected": "aaaaaaaaaaaaaa a",
+      "connecting": "aaaaaaaaaaaaaaaaaaaa",
+      "connect-with-pims": "aaaaaaaaaaaaaaaaa"
+    },
+    "tab": {
+      "integration": "aaaaaaaaaaaaaaaa",
+      "test-result-settings": "aaaaaaaaaaaaaaaaaaaa"
+    },
+    "modal": {
+      "error.header": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "error.body": "aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaa",
+      "successfully-connected": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "server-mode.connected": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "server-mode.body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaa",
+      "server-mode.header": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaa",
+      "server-mode.error.title": "aaaaaaaaaaaaaaaaaaaa",
+      "ok-btn": "aa"
+    },
+    "connected": {
+      "otp-generator": {
+        "header": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "ok-btn": "aa",
+        "expire-warning": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "error": {
+          "header": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "message": "aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaa",
+          "ok-btn": "aa"
+        }
+      },
+      "transfer-connection": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "transfer-button": "aaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "connected-to": "aaaaaaaaaaaa",
+    "client-id": "aaaaaaaaaa",
+    "connecting": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+    "validation": {
+      "otp": {
+        "required": "aaaaaaaaaaaaaaa",
+        "min-length": "aaaaaaaaaaaaaaaaaaaaa aa",
+        "matches": "aaaaaaaaaaa"
+      },
+      "email": {
+        "matches": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    "server-mode": "aaaaaaaaaaaaaaaaaaaaaa",
+    "connect": "aaaaaaa",
+    "email.label": "aaaaaaaaaaaaa",
+    "badge": {
+      "header": "aaaa",
+      "connected": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+      "error": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "disconnected-by-user": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "not-connected": "aaaaaaaaaaaaa"
+    }
+  },
+  "device-settings": {
+    "title": "aaaaaaaaaaaaaaa",
+    "tab": {
+      "imagyst": "aaaaaaa"
+    },
+    "imagyst": {
+      "badge": {
+        "header": "aaaaaaa",
+        "connected": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "error": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "disconnected-by-user": "aaaaaaaaaaaaa",
+        "not-connected": "aaaaaaaaaaaaa"
+      },
+      "form": {
+        "email": {
+          "label": "aaaaaaaaaaaaaaaaa",
+          "invalid": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "required": "aaaaaaaaaaaaaaaaa"
+        },
+        "password": {
+          "label": "aaaaaaaaaaaaaaaaaaaa",
+          "required": "aaaaaaaaaaaaaaaaaaaa"
+        }
+      },
+      "connect-button": {
+        "connect": "aaaaaaaaaaaaaaaaaa",
+        "connecting": "aaaaaaaaaaaaaaaaaaaaa",
+        "disconnect": "aaaaaaaaaaaaaaaaaa"
+      },
+      "error-modal": {
+        "title": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "invalid-credentials": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "unreachable": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa",
+        "unexpected": "aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "permissions": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaa",
+        "body": "aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaa",
+        "ok": "aa"
+      },
+      "disconnect-modal": {
+        "title": "aaaaaaaaaaaaaaaaaaaaaaa",
+        "body": "aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaa",
+        "confirmation-button": "aaaaaaaaaaaaaaaaaaaaa, aaaaa",
+        "cancel-button": "aaaaaa"
+      }
+    }
+  },
+  "testlist": {
+    "title": "aaaaaaaaaa",
+    "details": "aaaaaaaaaaa",
+    "quick-test-btn": "aaaaaaaaaa",
+    "emergency-patient": "aaaaaaaaaaaaaaaaa",
+    "select-consumables": {
+      "title": "aaaaaaaaaaaaaa",
+      "no-analyzer-msg": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaa",
+      "submit-btn": "aaaaaaaaa"
+    },
+    "select-patient": {
+      "name": "aaaa",
+      "patient-id": "aaaaaaaaaa",
+      "species": "aaaaaaa",
+      "breed": "aaaaa",
+      "selected": "aaaaaaaaaaaaaaaa",
+      "not-selected": "aaaaaaaaaaaaaa",
+      "title": "aaaaaaaaaaaaaa",
+      "emergency-test": "aaaaaaaaaaaaaa",
+      "submit-btn": "aaaaaaaaa"
+    },
+    "order-summary": {
+      "title": "aaaaaaaaaaaaa",
+      "default-msg": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "submit-btn": "aaaaaaaaaaaa"
+    },
+    "patient-info": {
+      "title": "aaaaaaaaaaaaaaaaaaa",
+      "quick-test": "aaaaaaaaa",
+      "no-patient": "aaaaaaaaaaaaaa aaaa"
+    },
+    "test-wizard": {
+      "title": "aaaaaaaaaaaa",
+      "step": "aaaaaaaaaaaaaaaaaa"
+    },
+    "tabs": {
+      "all-tests": "aaaaaaaaa",
+      "worklist": "aaaaaaaa",
+      "completed": "aaaaaaaaaaaaaaa",
+      "columns": {
+        "patient": "aaaaaaa",
+        "test": "aaaa",
+        "platform": "aaaaaaaa",
+        "device": "aaaaaa",
+        "species": "aaaaaaa",
+        "status": "aaaaaa",
+        "progress": "aaaaaaaa",
+        "view-details": "aaaaaaaaaaaa",
+        "start-test": "aaaaaaaaaa"
+      },
+      "status-btn": {
+        "all-tests": "aaaaaaaaa",
+        "pending": "aaaaaaa",
+        "ready": "aaaaa",
+        "running": "aaaaaaa",
+        "results": "aaaaaaa",
+        "error": "aaaaa"
+      }
+    }
+  },
+  "patients": {
+    "title": "aaaaaaaa",
+    "search-placeholder": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+    "view-owner-list": "aaaaaaaaaaaaaaaa",
+    "add-patient": "aaaaaaaaaaa",
+    "no-result": "aaaaaaaaaaaaaa aaaaaa",
+    "all-species": "aaaaaaaaaaa",
+    "species-list": "{{aaaaaaaaa",
+    "gender": "{{aaaaaaaa",
+    "group": "{{aaaaaaa",
+    "details": {
+      "title": "aaaaaaaaaaaaaaa"
+    },
+    "patients-add": {
+      "header": "aaaaaaaaaaaaaaa",
+      "fields-required-left": "aaaaaaaaaaaaaaaaaa",
+      "fields-required-right": "aaaaaaaaaaaa",
+      "patient-id": "aaaaaaaaaa",
+      "patient-name": "aaaaaaaaaaaa",
+      "species": "aaaaaaa",
+      "breed": "aaaaa",
+      "birthdate": "aaaaaaaaa",
+      "sex": "aaa",
+      "notes": "aaaaa",
+      "submit-label": "aaaaaaaaaaa",
+      "placeholder": {
+        "species": "aaaaaaaaaaaaaa",
+        "sex": "aaaaaaaaaa"
+      },
+      "validation": {
+        "patient-id": {
+          "required": "aaaaaaaaaaaaaaaaaaaaaa",
+          "max-length": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "patient-name": {
+          "required": "aaaaaaaaaaaaaaaaaaaaaaaa",
+          "max-length": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa "
+        },
+        "breed": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa a",
+        "species": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "gender": "aaaaaaaaaaaaaaaaaaaaa aaa",
+        "birthdate": "aaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    "patient-edit": {
+      "edit-patient": "aaaaaaaaaaaa",
+      "fields-required-left": "aaaaaaaaaaaaaaaaaa",
+      "fields-required-right": "aaaaaaaaaaaa",
+      "update-patient": "aaaaaaaaaaaaaa",
+      "label": {
+        "species": "aaaaaaa",
+        "breed": "aaaaa",
+        "sex": "aaa",
+        "owner": "aaaaa",
+        "birthdate": "aaaaaaaaa"
+      }
+    },
+    "tabs": {
+      "all-patients": "aaaaaaaaaaaa",
+      "current-tests": "aaaaaaaaaaaaaa",
+      "test-history": "aaaaaaaaaaaa"
+    },
+    "tab-columns": {
+      "test": "aaaa",
+      "platform": "aaaaaaaa",
+      "device": "aaaaaa",
+      "status": "aaaaaa",
+      "progress": "aaaaaaaa"
+    },
+    "tab-no-result": "aaaaaaaaaaaaaa aaaaaa"
+  },
+  "owners": {
+    "title": "aaaaaa",
+    "search-placeholder": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "assigned-patients": "aaaaaaaaaaaaaaaaa",
+    "manage-assigned-patients": "aaaaaaaaaaaaaaaaaaaaaaaa",
+    "add": {
+      "title": "aaaaaaaaaaaaa",
+      "fields-required-left": "aaaaaaaaaaaaaaaaaa",
+      "fields-required-right": "aaaaaaaaaaaa",
+      "submit": "aaaaaaaaa"
+    },
+    "edit": {
+      "edit-owner": "aaaaaaaaaa",
+      "update-owner": "aaaaaaaaaaaa"
+    },
+    "details": {
+      "title": "aaaaaaaaaaaaa",
+      "phone": "aaaaa"
+    },
+    "assign": {
+      "title": "aaaaaaaaaaaaaa"
+    },
+    "validation": {
+      "first-name": {
+        "required": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "max-length": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "last-name": {
+        "required": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "max-length": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa"
+      },
+      "owner-id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa",
+      "email": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaa",
+      "phone": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaa"
+    },
+    "headers": {
+      "last-name": "aaaaaaaaa",
+      "first-name": "aaaaaaaaaa",
+      "owner-id": "aaaaaaaa",
+      "phone-number": "aaaaaaaaaaaa",
+      "address": "aaaaaaa",
+      "email": "aaaaa",
+      "view-details": "aaaaaaaaaaaa"
+    },
+    "tab-columns": {
+      "patient-name": "aaaaaaaaaaaa",
+      "patient-id": "aaaaaaaaaa",
+      "species": "aaaaaaa",
+      "breed": "aaaaa",
+      "assign-patient": "aaaaaaaaaaaaaa",
+      "patient-assigned": "aaaaaaaaaaaaaaaa"
+    }
+  },
+  "my-lab": {
+    "title": "aaaaaa",
+    "systems-header": "aaaaaaa",
+    "no-devices-msg": "aaaaaaaaaaaaaa aaaaa",
+    "instrument": {
+      "platform": " {{aaaaaaaaaaaaaaaaaa",
+      "type": "{{aaaaaa",
+      "status": "{{aaaaaaaa",
+      "card": {
+        "SN": "aa"
+      },
+      "details": {
+        "title": "aaaaaaaaaaaaaaaaaa",
+        "device-type": "{{aaaaaaaaaaaaaaaaa",
+        "btn-type": "{{aaaaaaaaaaaaaaa",
+        "status": "aaaaaa",
+        "serial-no": "aaaaaaaaaaaaa",
+        "software": "aaaaaaaa",
+        "connection-type": "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "last-transmission": "aaaaaaaaaaaaaaaaa",
+        "device-date-time": "aaaaaaaaaaaaaaaa",
+        "mobile-os": "aaaaaaaaa",
+        "mobile-user": "aaaa",
+        "edit-device": "aaaaaaaaaaa",
+        "shutdown": "aaaaaaaaa",
+        "identify": "aaaaaaaa",
+        "power-on": "aaaaaaaa",
+        "quality-control": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "test-tabs": {
+          "current-tests": "aaaaaaaaaaaaa",
+          "test-history": "aaaaaaaaaaaa"
+        },
+        "modal": {
+          "error-header": "aaaaaaaaaaaaaa aaaaaa",
+          "error-msg": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "action-msg": "aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaa",
+          "ok-btn": "aa",
+          "cancel-btn": "aaaaaa"
+        },
+        "edit": {
+          "serialNumber": "{{aaaaaaaaaaaaaa",
+          "unpair-msg": "aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa",
+          "unpair-device": "aaaaaaaaaaaaa",
+          "modal": {
+            "msg": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "confirmation-msg": "aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaa",
+            "btn": {
+              "yes": "aaa",
+              "no": "aa"
+            }
+          }
+        }
+      }
+    }
+  },
+  "measurement": {
+    "cancel-btn": "aaaaaaaaaaa",
+    "test-date": "aaaaaaaaa",
+    "warning-result": {
+      "title": "aaaaaaaaaaaa",
+      "warning-flag": "{{aaaaaaaaa"
+    },
+    "status": {
+      "pending": "aaaaaaa",
+      "submitted": "aaaaaaa",
+      "accepted": "aaaaaaa",
+      "ready": "aaaaa",
+      "running": "aaaaaaa",
+      "complete": "aaaaaaaa",
+      "error": "aaaaa",
+      "cancel": "aaaaaaaaa"
+    },
+    "details": {
+      "status": {
+        "pending": "aaaaaaa",
+        "submitted": "aaaaaaa",
+        "accepted": "aaaaaaa",
+        "ready": "aaaaa",
+        "running": "aaaaaaa",
+        "complete": "aaaaaaaaaaaaaaaaa",
+        "error": "aaaaaaaaaa",
+        "cancel": "aaaaaaaaa"
+      },
+      "actions": {
+        "resend-to-pims": "aaaaaaaaaaaaaa"
+      }
+    },
+    "modal": {
+      "cancel-header": "aaaaaaaaaaa",
+      "cancel-msg": "aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaa",
+      "ok-btn": "aaaaaaaaaaaaaaaa",
+      "not-ok-btn": "aaaaaaaaaaaaaa,"
+    },
+    "results": {
+      "serialNumber": {
+        "standard": "{{aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "imagyst": "aaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      "result-columns": {
+        "test": "aaaa",
+        "graph": "aaaaa",
+        "result": "aaaaaa",
+        "unit": "aaaa",
+        "reference": "aaaaaaaaa"
+      }
+    }
+  },
+  "management": {
+    "title": "aaaaaaaaaa",
+    "clear-instruments": "aaaaaaaaaaaaaaaaa",
+    "clear-tests": "aaaaaaaaaaa",
+    "clear-tests-instruments": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "clear-onboarding": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "prompts": {
+    "apply-sample": {
+      "title": "aaaaaaaaaaaa",
+      "msg": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "cartridge-code": {
+      "title": "aaaaaaaaaaaaaaaaaaaaa"
+    },
+    "disconnected": {
+      "description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "histogram": {
+      "title": "{{aaaaaaaaaaaaaaaa"
+    },
+    "insert-cartridge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "ltf-binary-result-columns": {
+      "test-type": "aaaaaaaaa",
+      "result": "aaaaaa",
+      "error-desc": "aaaaaaaaaaaaaaaaa",
+      "error": "aaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "ltf-cpl-result-columns": {
+      "test-type": "aaaaaaaaa",
+      "concentration": "aaaaaaaaaaaaa",
+      "ref-range": "aaaaaaaaaaaaaaa",
+      "result": "aaaaaa"
+    },
+    "insert-sample": {
+      "timed-scan": {
+        "apply-sample-1": "aaaaaaaaaaaaaaaaaaaaaaa",
+        "apply-sample-2": "aaaaaaaaaaa",
+        "insert-consumable-1": "aaaaaaaaaaaaaaaaaaaaaa",
+        "insert-consumable-2": "aaaaaaaaaaaaaaaaaaaa",
+        "close-drawer-1": "aaaaaaaaaaaaaaaaaaaaaa",
+        "close-drawer-2": "aaaaaaaaaaaaaa a"
+      },
+      "quick-scan": {
+        "insert-consumable-1": "aaaaaaaaaaaaaaaaaaaaaa",
+        "insert-consumable-2": "aaaaaaaaaaaaaaaaaaaaaaa",
+        "close-drawer-1": "aaaaaaaaaaaaaaaaaaaaaa",
+        "close-drawer-2": "aaaaaaaaaaaaaa a"
+      },
+      "hmx": {
+        "apply-sample-1": "aaaaaaaaaaaa",
+        "apply-sample-2": "aaaaaaaaaa",
+        "insert-sampler-1": "aaaaaaaaaaaaaaaaaaa",
+        "insert-sampler-2": "aaaaaaaaa",
+        "insert-consumable-1": "aaaaaaaaaaaaaaaaaaaaa",
+        "insert-consumable-2": "aaaaaa",
+        "qc": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    "ltf-scan-type": {
+      "timed-scan-btn": "aaaaaaaaaa",
+      "quick-scan-btn": "aaaaaaaaaa"
+    },
+    "measurement-cancelled": {
+      "title": "aaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "measurement-error": {
+      "title": "{{aaaaaaa",
+      "description": "{{aaaaaaaaaaaaa",
+      "timestamp": "{{aaaaaaaaaaa"
+    },
+    "pending": {
+      "accepted": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaa",
+      "no-device": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaa",
+      "general-worklist": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaa",
+      "on-imagyst": "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "submitted": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaa",
+    "prepare-sample": {
+      "title": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "msg-1": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaa",
+      "msg-2": "aaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaa"
+    },
+    "progress": {
+      "description": "{{aaaaaaaaaaaaa"
+    },
+    "species": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "tabs": {
+      "title": "{{aaaaaaa",
+      "result": "aaaaaa",
+      "images": "aaaaaa"
+    },
+    "text-result": {
+      "columns": {
+        "test": "aaaa",
+        "result": "aaaaaa"
+      }
+    },
+    "pass-fail-result": {
+      "columns": {
+        "test": "aaaa",
+        "result": "aaaaaa"
+      }
+    },
+    "timed-progress": {
+      "description": "{{aaaaaaaaaaaaa",
+      "time-remaining": "aaaaaaaaaaaaaaa",
+      "total-time": "aaaaaaaaaaa"
+    },
+    "vs3-insert": {
+      "add-sample": "aaaaaaaaaa",
+      "place-rotor": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "close-drawer": "aaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "img-result": {
+      "columns": {
+        "detection": "aaaaaaa",
+        "count": "aaaaa",
+        "images": "aaaaaa",
+        "presence": "aaaaaaaa",
+        "blood-cells": "aaaaaaaaaaa",
+        "bacteria": "aaaaaaaa",
+        "crystal": "aaaaaaaa",
+        "casts": "aaaaa",
+        "epithelial-cells": "aaaaaaaaaaaaaaaa",
+        "semi-quant-hpf": "aaaaaaaaaaaaaaaaaaaa",
+        "semi-quant-lpf": "aaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    "img-fecal-result-columns": {
+      "epg": "aaa"
+    },
+    "img-dermatology-result-columns": {
+      "bacteria-yeast": "aaaaaaaaaaaaaaaa",
+      "white-blood-cells": "aaaaaaaaaaaaaaaa"
+    },
+    "img-bloodsmear-result-columns": {
+      "detection": "aaaaaaa",
+      "graph": "aaaaa",
+      "count": "aaaaaaa",
+      "unit": "aaaa"
+    },
+    "submit-btn": "aaaaaa"
+  },
+  "components": {
+    "back-btn": "aaaa",
+    "platform": "{{aaaaaaaaaa",
+    "dropdown-filter": {
+      "filter-by": "aaaaaaaaa",
+      "label": "{{aaaaaaa",
+      "options": "{{aaaaaaaaa"
+    },
+    "patient-card": {
+      "name": "{{aaaaaa",
+      "clinic-id": "{{aaaaaaaaaa",
+      "species": "{{aaaaaaaaa",
+      "breed": "{{aaaaaaa"
+    }
+  },
+  "analytes": {
+    "rapid": {
+      "chw": "aaaaaaaaa",
+      "ehr": "aaaaaaaaa",
+      "par": "aaaaa",
+      "gia": "aaaaaaa",
+      "lym": "aaaa",
+      "cpl": "aaaaaaaaaaaaaaaaaaaaaaaa",
+      "fiv": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "fel": "aaaaaaaaaaaaaaaaaaaaa",
+      "ana": "aaaaaaaaa"
+    },
+    "imagyst": {
+      "ancy": "aaaaaaaaaaaaaaaaaaaaaa",
+      "coc": "aaaaaaaaaaaaaaaaaaaaaaaa",
+      "gia": "aaaaaaa",
+      "tae": "aaaaaaaaaaaaaaaaa",
+      "tox": "aaaaaaaaaaaaaaaaaaaa",
+      "tri": "aaaaaaaaaaaaaaaaaaaa",
+      "para": "aaaaaaaaaaaaaaaaaaaaaa",
+      "stro": "aaaaaaaaaa",
+      "bacteria": "aaaaaaaa",
+      "yeast": "aaaaa",
+      "derm-wbc": "aaaaaaaaaaaaaaaaa",
+      "derm-rods": "aaaa",
+      "derm-cocci": "aaaaa",
+      "derm-neutrophil-normal": "aaaaaaaaaaa",
+      "derm-neutrophil-bacteria": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "derm-macrophage": "aaaaaaaaaaa",
+      "derm-lymphocyte": "aaaaaaaaaaa",
+      "derm-eosinophil": "aaaaaaaaaaa",
+      "derm-malassezia": "aaaaaaaaaa",
+      "ewbc": "aaaaaaaaaaaaaaaaaaa",
+      "neu": "aaaaaaaaaa",
+      "lym": "aaaaaaaaaa",
+      "mon": "aaaaaaaa",
+      "eos": "aaaaaaaaaa",
+      "bas": "aaaaaaaa",
+      "wbc%": "aaaaaaaaaaa",
+      "neu%": "aaaaaaaaaaaaaa",
+      "lym%": "aaaaaaaaaaaaaa",
+      "mon%": "aaaaaaaaaaaa",
+      "eos%": "aaaaaaaaaaaaaa",
+      "bas%": "aaaaaaaaaaaa",
+      "erbc": "aaaaaaaaaaaaaa",
+      "rbc": "aaaaaaaaaaaaa",
+      "pol": "aaaaaaaaaaaaaaaaaa",
+      "plt": "aaaaaaaaaaaaaaaaaaaaaaaa",
+      "lplt": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+      "mplt": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "bneu": "aaaaaaaaaaaaaaa",
+      "bneu%": "aaaaaaaaaaaaaaaaaaa",
+      "sneu": "aaaaaaaaaaaaaaaaaaaa",
+      "sneu%": "aaaaaaaaaaaaaaaaaaaaaaaa",
+      "aca": "aaaaaaaaaaa",
+      "ecc": "aaaaaaaaaaaa",
+      "ech": "aaaaaaaaaa",
+      "ker": "aaaaaaaaaa",
+      "sch": "aaaaaaaaaaa",
+      "aplt": "aaaaaaaaaaaaaaaaaaa",
+      "dobd": "aaaaaaaaaa",
+      "u-wbc": "aaaa",
+      "u-rbc": "aaaa",
+      "u-coc": "aaaaa",
+      "u-coc-cl": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "u-rod": "aaaa",
+      "u-rod-cl": "aaaaaaaaaaaaaaaaaaaaaa",
+      "u-hyac": "aaaaaaaaaaaa",
+      "u-nhyac": "aaaaaaaaaaaaaaaa",
+      "u-str": "aaaaaaaa",
+      "u-cal": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+      "u-squ": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+      "u-oepi": "aaaaaaaaaaaaaaaaaaaaaa",
+      "u-epi-cl": "aaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  },
+  "sample": {
+    "info": {
+      "fec-color": "aaaaa",
+      "fec-consist": "aaaaaaaaaaa",
+      "fec-comm": "aaaaa",
+      "eqf-consist": "aaaaaaaaaaa",
+      "sol": "aaaaaaaa",
+      "blood-presence": "aaaaaaaaaaaaaa",
+      "site-location": "aaaaaaaaaaaaa",
+      "notes-bld": "aaaaaaa",
+      "u-retrieval": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+      "u-clarity": "aaaaaaa",
+      "u-vol": "aaaaaaaaaaaa",
+      "u-ph": "aa",
+      "u-color": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "u-hematuric": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "u-dilution-fac": "aaaaaaaaaaaaaaa",
+      "u-time": "aaaaaaaaaaaa",
+      "u-storage": "aaaaaaaaaaaaaaaaa",
+      "u-usg": "aaa"
+    },
+    "color": {
+      "brown": "aaaaa",
+      "light-brown": "aaaaaaaaaaa",
+      "black": "aaaaa",
+      "green": "aaaaa",
+      "light-green": "aaaaaaaaaaa",
+      "yellow": "aaaaaa",
+      "yellow-with-mucus": "aaaaaaaaaaaaaaaaa",
+      "orange": "aaaaaa",
+      "yellow-orange": "aaaaaaaaaaaaa",
+      "gray": "aaaa",
+      "pink-purple": "aaaaaaaaaaaaa",
+      "bloody": "aaaaaaaaaaaaaaaaaaaaa",
+      "colorless": "aaaaaaaaa",
+      "light-red": "aaaaaaaaa",
+      "red": "aaa",
+      "pink": "aaaa",
+      "light-orange": "aaaaaaaaaaaa",
+      "dark-orange": "aaaaaaaaaaa",
+      "light-yellow": "aaaaaaaaaaaa",
+      "light-medium-yellow": "aaaaaaaaaaaaaaaaaaaaaa",
+      "dark-yellow": "aaaaaaaaaaa",
+      "straw": "aaaaa",
+      "light-straw": "aaaaaaaaaaa",
+      "white": "aaaaa",
+      "green-tint": "aaaaaaaaaa",
+      "same": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "different": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "other": "aaaaa"
+    },
+    "consistency": {
+      "bristol": {
+        "one": "1 - aaaaaaaaaaaaaaaaa",
+        "two": "2 - aaaaaaaaaaaaaaaaaa",
+        "three": "3 - aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "four": "4 - aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaa",
+        "five": "5 - aaaaaaaaaaaaaaaaaaaaa",
+        "six": "6 - aaaaaaaaaaaaaaaaaaaaa aaa",
+        "seven": "7 - aaaaaaaaaaaaaaaaaa"
+      },
+      "equine": {
+        "dry-with-mucous": "1 - aaaaaaaaaaaaaaa",
+        "dry-without-mucous": "2 - aaaaaaaaaaaaaaaaaa",
+        "normal-formed": "3 - aaaaaaaaaaaaa",
+        "soft-formed": "4 - aaaaaaaaaaa",
+        "cow-pie": "5 - aaaaaaa",
+        "loose-cow-pie": "6 - aaaaaaaaaaaaaaaaaaaaaaa",
+        "very-loose": "7 - aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "profuse-watery": "8 - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "pure-liquid": "9 - aaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    "type": {
+      "equine": {
+        "sugar": "aaaaaaaaaaaaaaaaaa",
+        "fecasol": "aaaaaaaaaaaaaaaaaaaaaaaa",
+        "heavy-sodium-nitrate": "aaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    "storage": {
+      "not-refrigerated": "aaaaaaaaaaaaaaaaaa",
+      "refrigerated": "aaaaaaaaaaaa"      
+    },
+    "dilution": {
+      "none": "aaaaaaaaaaa",
+      "one-to-two": "1:2",
+      "one-to-five": "1:5",
+      "one-to-eight": "1:8"      
+    },
+    "retrieval-technique": {
+      "free-catch": "aaaaaaaaaa",
+      "traumaticCatheterization": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+      "catheterization": "aaaaaaaaaaaaaaa",
+      "cystocentesis": "aaaaaaaaaaaaa",
+      "voided": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"      
+    },
+    "collection-time": {
+      "greater-than-8-hrs": ">8 aaaaa",
+      "one-to-4-hrs": "1 - 4 aaaaa",
+      "four-to-8-hrs": "4 - 8 aaaaa",
+      "zero-to-30-min": "0 - 30 aaaaaaa",
+      "thirty-to-60-min": "30 aaaaaaaaaaaaaaaa"      
+    },
+    "clarity": {
+      "flocculent-chunky": "aaaaaaaaaaaaaaaaa",
+      "clear": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "slightly-cloudy": "aaaaaaaaaaaaaaa",
+      "cloudy": "aaaaaa",
+      "opaque": "aaaaaa"      
+    }    
+  },
+  "site": {
+    "location": {
+      "face-ear": "aaaaaaaaaaaaaaa",
+      "paw": "aaa",
+      "side": "aaaa",
+      "chest-back": "aaaaaaaaaa",
+      "both-ears": "aaaaaaaaa"
+    }
+  },
+  "detection": {
+    "grade": {
+      "yes": "aaa",
+      "no": "aa",
+      "none-to-rare": "aaaaaaaaaaaa",
+      "one": "1+",
+      "two": "2+",
+      "three": "3+",
+      "none-to-rare-0-5": "aaaaaaaaaaaaaaaaaa",
+      "none-to-rare-0-1": "aaaaaaaaaaaaaaaaaa",
+      "none-to-rare-0-less-1": "aaaaaaaaaaaaaaaaaaaa",
+      "few-6-20": "aaaaaaaaaa",
+      "few-2-4": "aaaaaaaaa",
+      "moderate-21-50": "aaaaaaaaaaaaaaaa",
+      "moderate-21-10": "aaaaaaaaaaaaaaaa",
+      "moderate-5-10": "aaaaaaaaaaaaaaa",
+      "many-50": "aaaaaaaaaa",
+      "many-100": "aaaaaaaaaaa",
+      "many-10": "aaaaaaaaaa"      
+    }
+  }
+}
