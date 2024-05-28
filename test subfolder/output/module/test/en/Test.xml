@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+  <meta>
+    <repoName>bloc</repoName>
+    <id>8b90f982-e293-4ee1-bcf7-48634f62aed5-bloc.xml</id>
+  </meta>
+  <desc></desc>
+  <string>
+    <rstringUUID>4b33406f-f4ab-4ebe-bdba-5fe23bc6fdfd</rstringUUID>
+    <value>Sample text</value>
+    <context>
+      <message><![CDATA[Repo: <a href ="https://i18n.uberinternal.com/rosetta2/repo/bloc/keys" target="_blank">bloc</a>, KeyName: <a href="https://i18n.uberinternal.com/rosetta2/repo/bloc/key/bloc.7986e830fb83944f5c40dab1a3749297/overview" target="_blank">bloc.7986e830fb83944f5c40dab1a3749297</a><br> Description: <font color="blue">Content Type: CRM Marketing - EMAIL
+Preview Link: https://bloc.uberinternal.com/edit/880aca0e-3bc4-4f3f-a56f-300112c9e300
+Target Audience: eater rider</font><br>DynamicValueExample: <i></i><br>Component: <font color="green"></font><br>Audience: []<br>ReferenceLinks: []<br>MobileUsages: []<br>AdditionalInfo: {}<br>]]></message>
+      <imageURL></imageURL>
+    </context>
+  </string>
+  <string>
+    <rstringUUID>ffd557ac-4355-4af7-b6e8-7a63d11ce13b</rstringUUID>
+    <value>Sample text 2 </value>
+    <context>
+      <message><![CDATA[Repo: <a href ="https://i18n.uberinternal.com/rosetta2/repo/bloc/keys" target="_blank">bloc</a>, KeyName: <a href="https://i18n.uberinternal.com/rosetta2/repo/bloc/key/bloc.50e5e82bbfd3d4356242925f4938d29d/overview" target="_blank">bloc.50e5e82bbfd3d4356242925f4938d29d</a><br> Description: <font color="blue">Content Type: CRM Marketing - EMAIL
+Preview Link: https://bloc.uberinternal.com/edit/880aca0e-3bc4-4f3f-a56f-300112c9e300
+Target Audience: eater rider</font><br>DynamicValueExample: <i></i><br>Component: <font color="green"></font><br>Audience: []<br>ReferenceLinks: []<br>MobileUsages: []<br>AdditionalInfo: {}<br>]]></message>
+      <imageURL></imageURL>
+    </context>
+  </string>
+</file>
