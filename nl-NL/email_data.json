@@ -871,7 +871,7 @@
     ]
   },
   {
-    "subject": "{{month}} Verjaardagen &amp; jubilea!",
+    "subject": "{{month}} Verjaardagen & jubilea!",
     "template_name": "birthday-anniversary-email",
     "template_vars": [
       "company_name",
@@ -935,7 +935,7 @@
     ]
   },
   {
-    "subject": "[Belangrijk] {{company_name}} - uw vorige payroll provider &amp; volgende stappen",
+    "subject": "[Belangrijk] {{company_name}} - uw vorige payroll provider & volgende stappen",
     "template_name": "cancel-prior-provider",
     "template_vars": [
       "company_name",
@@ -5518,7 +5518,7 @@
     ]
   },
   {
-    "subject": "{{company_name}} &lt;> Rimpelend",
+    "subject": "{{company_name}} <> Rimpelend",
     "template_name": "onboarding-not-completed",
     "template_vars": [
       "company_name"
@@ -11403,7 +11403,7 @@
     ]
   },
   {
-    "subject": "U bent uitgenodigd om tijd bij te houden in Rippling Time &amp; Attendance",
+    "subject": "U bent uitgenodigd om tijd bij te houden in Rippling Time & Attendance",
     "template_name": "time-and-attendance-policy-invite",
     "template_vars": [
       "firstName",
