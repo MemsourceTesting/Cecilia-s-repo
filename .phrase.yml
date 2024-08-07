@@ -1,17 +1,16 @@
 phrase:
-  access_token: dcfb08d3675d0f244e988fd4e2ee6e73f318ecd2651b6473f464976aec6ec990
-  project_id: 7c14b2a0edc088784d0027260dfc12d7
+  project_id: 1a6b899f1802961a7a7a3d7f4b3be74e
+  file_format: json
+  
   push:
     sources:
-    - file: Desktop/Strings/en.yml
+    - file: sample key file.json
       params:
-        file_format: yml
         locale_id: en
         update_translations: true
         autotranslate: true
   pull:
     targets:
-    - file: Desktop/Strings/de.yml
+    - file: sample key file.json
       params:
-        file_format: yml
         locale_id: de
