@@ -1,0 +1,92 @@
+[
+  {
+    "_identity": {
+      "id": "instruments.framework.app~1_0",
+      "type": "product",
+      "locale": "en-US"
+    },
+    "middle": {
+      "product.link_cancel~r0": "Cancel",
+      "product.button_back~r0": "Back",
+      "product.button_next~r0": "Next"
+    },
+    "cancel": {
+      "product.cancel_dialog.content~r0": "This activity will still be available to come back to, but your responses will not be saved.",
+      "product.cancel_dialog.no_label~r0": "No, stay in activity",
+      "product.cancel_dialog.title~r0": "Are you sure you want to cancel this activity?",
+      "product.cancel_dialog.yes_label~r0": "Yes, cancel activity"
+    },
+    "skip": {
+      "product.skip_dialog.content~r0": "You will continue without providing a response.",
+      "product.skip_dialog.no_label~r0": "No, stay in question",
+      "product.skip_dialog.title~r0": "Are you sure you want to skip this question?",
+      "product.skip_dialog.yes_label~r0": "Yes, skip question"
+    },
+    "scroll": {
+      "product.hint.scroll_down~r0": "Scroll down to see more"
+    },
+    "review": {
+      "instrument.review.title~r0": "Please review your responses",
+      "product.skipped_answer~r0": "(skipped)",
+      "product.link_edit~r0": "Edit"
+    },
+    "completion": {
+      "instrument.completion.title~r0": "Ready to submit?",
+      "instrument.completion.subtitle~r0": "If you wish to review or change anything, please go back before you submit.",
+      "product.button_submit~r0": "Submit"
+    },
+    "nde": {
+      "product.error.nde.decimals_not_allowed~r0": "Error - Decimals are not allowed",
+      "product.error.nde.invalid_number~r0": "Error - Input should be a valid number",
+      "product.error.nde.leading_zeros_not_allowed~r0": "Error - Leading zeros are not allowed",
+      "product.error.nde.only_one_decimal~r0": "Error - Only 1 decimal is allowed",
+      "product.error.nde.only_two_decimals~r0": "Error - Only 2 decimals are allowed",
+      "product.error.nde.should_be_greater_or_equal_to~r0": "Error - Number should be greater than or equal to {min}",
+      "product.error.nde.should_be_less_or_equal_to~r0": "Error - Number should be less than or equal to {max}"
+    },
+    "date_time": {
+      "product.error.date_time.date_should_be_on_or_after~r0": "Error - Date should be on or after {min}",
+      "product.error.date_time.date_should_be_on_or_before~r0": "Error - Date should be on or before {max}",
+      "product.error.date_time.date_time_should_be_on_or_after~r0": "Error - Date-time should be on or after {min}",
+      "product.error.date_time.date_time_should_be_on_or_before~r0": "Error - Date-time should be on or before {max}"
+    }
+  },
+  {
+    "_identity": {
+      "id": "product_previews.built_in~1_0",
+      "type": "product",
+      "locale": "en-US"
+    },
+    "activity_names": {
+      "button": "Start"
+    },
+    "participant_statuses": {
+      "systemId": "System ID",
+      "email": "Email",
+      "participant_number": "Participant Number",
+      "status": "Status",
+      "created": "Created"
+    },
+    "protocol_schedule": {
+      "visit_id": "Visit",
+      "tasks": "Tasks",
+      "task_response": "Task Response",
+      "start_date": "Start Date",
+      "end_date": "End Date"
+    },
+    "sign_in_support_information": {
+      "title": "Support information",
+      "button": "Done"
+    },
+    "site_visit_schedule": {
+      "title": "Visit schedule"
+    },
+    "sign_in_study_name": {
+      "username": "Username",
+      "password": "Password",
+      "sign_in": "Sign in",
+      "switch": "Switch study",
+      "forgot": "Forgot?"
+    }
+  }
+]
