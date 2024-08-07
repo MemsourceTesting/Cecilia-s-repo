@@ -4,13 +4,13 @@ phrase:
   
   push:
     sources:
-    - file: sample key file.json
+    - file: en.json
       params:
         locale_id: en
         update_translations: true
         autotranslate: true
   pull:
     targets:
-    - file: sample key file.json
+    - file: en.json
       params:
         locale_id: de
