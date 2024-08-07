@@ -1,6 +1,6 @@
 phrase:
   project_id: 1a6b899f1802961a7a7a3d7f4b3be74e
-  file_format: json
+  file_format: simple_json
   
   push:
     sources:
