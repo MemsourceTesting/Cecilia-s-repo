@@ -1,16 +1,16 @@
 phrase:
   project_id: 1a6b899f1802961a7a7a3d7f4b3be74e
-  file_format: simple_json
+  file_format: yml
   
   push:
     sources:
-    - file: en.json
+    - file: en.yml
       params:
         locale_id: en
         update_translations: true
         autotranslate: true
   pull:
     targets:
-    - file: en.json
+    - file: de.yml
       params:
         locale_id: de
