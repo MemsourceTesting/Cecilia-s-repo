@@ -1,0 +1,92 @@
+[
+  {
+    "_identity": {
+      "id": "instruments.framework.app~1_0",
+      "type": "produto",
+      "locale": "en-US"
+    },
+    "middle": {
+      "product.link_cancel~r0": "Cancelar",
+      "product.button_back~r0": "Voltar",
+      "product.button_next~r0": "Próximo"
+    },
+    "cancel": {
+      "product.cancel_dialog.content~r0": "Essa atividade ainda estará disponível para ser acessada novamente, mas suas respostas não serão salvas.",
+      "product.cancel_dialog.no_label~r0": "Não, permaneça em atividade",
+      "product.cancel_dialog.title~r0": "Tem certeza de que deseja cancelar essa atividade?",
+      "product.cancel_dialog.yes_label~r0": "Sim, cancelar atividade"
+    },
+    "skip": {
+      "product.skip_dialog.content~r0": "Você continuará sem fornecer uma resposta.",
+      "product.skip_dialog.no_label~r0": "Não, fique em dúvida",
+      "product.skip_dialog.title~r0": "Tem certeza de que deseja pular esta pergunta?",
+      "product.skip_dialog.yes_label~r0": "Sim, pule a pergunta"
+    },
+    "scroll": {
+      "product.hint.scroll_down~r0": "Role a tela para baixo para ver mais"
+    },
+    "review": {
+      "instrument.review.title~r0": "Por favor, revise suas respostas",
+      "product.skipped_answer~r0": "(ignorado)",
+      "product.link_edit~r0": "Editar"
+    },
+    "completion": {
+      "instrument.completion.title~r0": "Pronto para enviar?",
+      "instrument.completion.subtitle~r0": "Se você quiser revisar ou alterar alguma coisa, volte atrás antes de enviar.",
+      "product.button_submit~r0": "Enviar"
+    },
+    "nde": {
+      "product.error.nde.decimals_not_allowed~r0": "Erro - Os decimais não são permitidos",
+      "product.error.nde.invalid_number~r0": "Erro - A entrada deve ser um número válido",
+      "product.error.nde.leading_zeros_not_allowed~r0": "Erro - Não são permitidos zeros à esquerda",
+      "product.error.nde.only_one_decimal~r0": "Erro - Somente 1 decimal é permitido",
+      "product.error.nde.only_two_decimals~r0": "Erro - Somente 2 casas decimais são permitidas",
+      "product.error.nde.should_be_greater_or_equal_to~r0": "Erro - O número deve ser maior ou igual a {min}",
+      "product.error.nde.should_be_less_or_equal_to~r0": "Erro - O número deve ser menor ou igual a {max}"
+    },
+    "date_time": {
+      "product.error.date_time.date_should_be_on_or_after~r0": "Erro - A data deve ser em ou após {min}",
+      "product.error.date_time.date_should_be_on_or_before~r0": "Erro - A data deve ser em ou antes de {max}",
+      "product.error.date_time.date_time_should_be_on_or_after~r0": "Erro - A data-hora deve ser em ou após {min}",
+      "product.error.date_time.date_time_should_be_on_or_before~r0": "Erro - A data-hora deve ser igual ou anterior a {max}"
+    }
+  },
+  {
+    "_identity": {
+      "id": "product_previews.built_in~1_0",
+      "type": "produto",
+      "locale": "en-US"
+    },
+    "activity_names": {
+      "button": "Início"
+    },
+    "participant_statuses": {
+      "systemId": "ID do sistema",
+      "email": "E-mail",
+      "participant_number": "Número do participante",
+      "status": "Status",
+      "created": "Criado"
+    },
+    "protocol_schedule": {
+      "visit_id": "Visitar",
+      "tasks": "Tarefas",
+      "task_response": "Resposta à tarefa",
+      "start_date": "Data de início",
+      "end_date": "Data final"
+    },
+    "sign_in_support_information": {
+      "title": "Informações de suporte",
+      "button": "Feito"
+    },
+    "site_visit_schedule": {
+      "title": "Programação de visitas"
+    },
+    "sign_in_study_name": {
+      "username": "Nome de usuário",
+      "password": "Senha",
+      "sign_in": "Fazer login",
+      "switch": "Estudo de mudança",
+      "forgot": "Esqueceu?"
+    }
+  }
+]
