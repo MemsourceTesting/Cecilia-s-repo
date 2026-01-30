@@ -1,0 +1,92 @@
+[
+  {
+    "_identity": {
+      "id": "i$n$s$t$r$u$m$e$n$t$s$.f$r$a$",
+      "type": "p$r$o$d",
+      "locale": "e$n$-"
+    },
+    "middle": {
+      "product.link_cancel~r0": "C$a$n$",
+      "product.button_back~r0": "B$a$",
+      "product.button_next~r0": "N$e$"
+    },
+    "cancel": {
+      "product.cancel_dialog.content~r0": "T$h$i$s$ a$c$t$i$v$i$t$y$ w$i$l$l$ s$t$i$l$l$ b$e$ a$v$a$i$l$a$b$l$e$ t$o$ c$o$m$e$ b$a$c$k$",
+      "product.cancel_dialog.no_label~r0": "N$o$, s$t$a$y$ i$n$ ",
+      "product.cancel_dialog.title~r0": "A$r$e$ y$o$u$ s$u$r$e$ y$o$u$ w$a$n$t$ t$o$ c$",
+      "product.cancel_dialog.yes_label~r0": "Y$e$s$, c$a$n$c$e$l$"
+    },
+    "skip": {
+      "product.skip_dialog.content~r0": "Y$o$u$ w$i$l$l$ c$o$n$t$i$n$u$e$ w$i$t$h$o$u$t$",
+      "product.skip_dialog.no_label~r0": "N$o$, s$t$a$y$ i$n$ ",
+      "product.skip_dialog.title~r0": "A$r$e$ y$o$u$ s$u$r$e$ y$o$u$ w$a$n$t$ t$o$ ",
+      "product.skip_dialog.yes_label~r0": "Y$e$s$, s$k$i$p$ q"
+    },
+    "scroll": {
+      "product.hint.scroll_down~r0": "S$c$r$o$l$l$ d$o$w$n$ t"
+    },
+    "review": {
+      "instrument.review.title~r0": "P$l$e$a$s$e$ r$e$v$i$e$w$ y$",
+      "product.skipped_answer~r0": "(s$k$i$p$",
+      "product.link_edit~r0": "E$d$"
+    },
+    "completion": {
+      "instrument.completion.title~r0": "R$e$a$d$y$ t$o$ ",
+      "instrument.completion.subtitle~r0": "I$f$ y$o$u$ w$i$s$h$ t$o$ r$e$v$i$e$w$ o$r$ c$h$a$n$g$e$ a$n$y$t$h$i$n$g$, ",
+      "product.button_submit~r0": "S$u$b$"
+    },
+    "nde": {
+      "product.error.nde.decimals_not_allowed~r0": "E$r$r$o$r$ - D$e$c$i$m$a$l$s$ a$",
+      "product.error.nde.invalid_number~r0": "E$r$r$o$r$ - I$n$p$u$t$ s$h$o$u$l$d$ b",
+      "product.error.nde.leading_zeros_not_allowed~r0": "E$r$r$o$r$ - L$e$a$d$i$n$g$ z$e$r$o$s",
+      "product.error.nde.only_one_decimal~r0": "E$r$r$o$r$ - O$n$l$y$ 1 d$e$c$i$m",
+      "product.error.nde.only_two_decimals~r0": "E$r$r$o$r$ - O$n$l$y$ 2 d$e$c$i$m$a",
+      "product.error.nde.should_be_greater_or_equal_to~r0": "E$r$r$o$r$ - N$u$m$b$e$r$ s$h$o$u$l$d$ b$e$ g$r$e$a$t$e",
+      "product.error.nde.should_be_less_or_equal_to~r0": "E$r$r$o$r$ - N$u$m$b$e$r$ s$h$o$u$l$d$ b$e$ l$e$s$s$"
+    },
+    "date_time": {
+      "product.error.date_time.date_should_be_on_or_after~r0": "E$r$r$o$r$ - D$a$t$e$ s$h$o$u$l$d$ b$e$ ",
+      "product.error.date_time.date_should_be_on_or_before~r0": "E$r$r$o$r$ - D$a$t$e$ s$h$o$u$l$d$ b$e$ o",
+      "product.error.date_time.date_time_should_be_on_or_after~r0": "E$r$r$o$r$ - D$a$t$e$-t$i$m$e$ s$h$o$u$l$d$ b",
+      "product.error.date_time.date_time_should_be_on_or_before~r0": "E$r$r$o$r$ - D$a$t$e$-t$i$m$e$ s$h$o$u$l$d$ b$"
+    }
+  },
+  {
+    "_identity": {
+      "id": "p$r$o$d$u$c$t$_p$r$e$v$i$e$w$",
+      "type": "p$r$o$d",
+      "locale": "e$n$-"
+    },
+    "activity_names": {
+      "button": "S$t$a"
+    },
+    "participant_statuses": {
+      "systemId": "S$y$s$t$e",
+      "email": "E$m$a",
+      "participant_number": "P$a$r$t$i$c$i$p$a$",
+      "status": "S$t$a$",
+      "created": "C$r$e$a"
+    },
+    "protocol_schedule": {
+      "visit_id": "V$i$s",
+      "tasks": "T$a$s",
+      "task_response": "T$a$s$k$ R$e$",
+      "start_date": "S$t$a$r$t$",
+      "end_date": "E$n$d$ D"
+    },
+    "sign_in_support_information": {
+      "title": "S$u$p$p$o$r$t$ i$n$",
+      "button": "D$o$"
+    },
+    "site_visit_schedule": {
+      "title": "V$i$s$i$t$ s$c"
+    },
+    "sign_in_study_name": {
+      "username": "U$s$e$r$",
+      "password": "P$a$s$s$",
+      "sign_in": "S$i$g$n",
+      "switch": "S$w$i$t$c$h$",
+      "forgot": "F$o$r$g"
+    }
+  }
+]
